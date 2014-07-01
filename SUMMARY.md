@@ -14,4 +14,8 @@
    * [Math operators](first_steps/math_operators.md)
    * [Date and time Records](first_steps/date_and_time_records.md)
    * [Exercises](first_steps/exercises.md)
+* [Control flow](control_flow/README.md)
+   * [Logical operators](control_flow/logical_operators.md)
+   * [Conditional statements](control_flow/conditional_statements.md)
+   * [Exercises](control_flow/exercises.md)
 
