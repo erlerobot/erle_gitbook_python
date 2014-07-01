@@ -54,6 +54,7 @@ Practicing with string variables, follow the steps:
 2. print the length of `my_string`.
 3. print `my_string`on capital letters.
 
+
 ######Exercise 4
 Write a program to prompt the user for hours and rate per hour to compute gross pay. The data should be:
 ```
@@ -62,8 +63,17 @@ Enter Rate: 2.75
 Pay: 96.25
 ```
 
+######Exercise 5
 
-#####Solutions
+Print the date and time together in the form: `mm/dd/yyyy hh:mm:ss`.
+
+######Exercise 6
+Write a program which prompts the user for a Celsius temperature,convert the temperature to Fahrenheit and print out the converted temperature.
+Note:` ºC *9/5 +32 = ºF
+
+
+
+##Solutions
 
 ######Exercise 1
 
@@ -128,3 +138,27 @@ the pay is: 96.25
 >>>
 ```
 
+######Exercise 5
+
+```
+>>> from datetime import datetime
+>>> now = datetime.now()
+>>>
+>>> print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year,now.hour, now.minute, now.second)
+7/1/2014 19:4:35
+>>>
+```
+
+######Exercise 6
+
+```
+>>> tempC= raw_input('Enter de temperarute in Celsius:')
+Enter de temperarute in Celsius:20
+>>> tempC=float(tempC)
+>>> #We change from string to float, so we can use operators.
+...
+>>> tempF=tempC*(9/5) +32
+>>> print "The temperature in farenheit is:", tempF
+The temperature in farenheit is: 52.0
+>>>
+```
