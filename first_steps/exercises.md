@@ -47,6 +47,21 @@ Reassign meal to the value of `itself + itself * tax`.
 
 - Insert at the end this code `print("%.2f" % total). This code print to the console the value of total with exactly two numbers after the decimal.
 
+######Exercise 3
+Practicing with string variables, follow the steps:
+
+1. create the variable `my_string` and set it to any string you'd like.
+2. print the length of `my_string`.
+3. print `my_string`on capital letters.
+
+######Exercise 4
+Write a program to prompt the user for hours and rate per hour to compute gross pay. The data should be:
+```
+Enter Hours: 35
+Enter Rate: 2.75
+Pay: 96.25
+```
+
 
 #####Solutions
 
@@ -54,6 +69,10 @@ Reassign meal to the value of `itself + itself * tax`.
 
 
 ```
+root@erlerobot:~# python
+Python 2.7.3 (default, Sep 26 2013, 21:37:06)
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
 >>> width = 17
 >>> height = 12.0
 >>>
@@ -77,5 +96,35 @@ Reassign meal to the value of `itself + itself * tax`.
 >>> meal = meal + meal * tax
 >>> total=meal +meal*tip
 >>> print("%.2f" % total)
+```
+
+######Exercise 3
+````
+>>> my_string= 'Erle'
+>>> # For printing the length of the string we use len() method.
+>>> print len(my_string)
+4
+>>> # For displaying the string in Capital letters we use upper() method.
+>>> print my_string.upper()
+ERLE
+>>>
+
+````
+
+######Exercise 4
+```
+
+>>> hours=raw_input('Enter worked hours:')
+Enter worked hours: 35
+>>> hours=int(hours)
+>>> rate=raw_input('Enter rate of payment:')
+Enter rate of payment:2.75
+>>> rate=float(rate)
+>>> #Notice that we change from string to integer/float before using math operators.
+...
+>>> pay= hours*rate
+>>> print "the pay is:", pay
+the pay is: 96.25
+>>>
 ```
 

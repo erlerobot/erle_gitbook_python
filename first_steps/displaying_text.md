@@ -39,6 +39,7 @@ root@erlerobot:~/Python_files# python Num.py
 
 
 ######Practice 3
+
 Display a variable on your screen:
 ```
 root@erlerobot:~/Python_files# python
