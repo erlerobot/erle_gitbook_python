@@ -1,0 +1,98 @@
+
+## String variables
+
+
+Another useful data type is the string. A string can contain letters, numbers, and symbols.
+
+For example:
+
+>name = "Ryan"
+
+>age = "19"
+
+>food = "cheese"
+
+
+There are some characters that cause problems. For example:
+
+> 'There's a snake in my boot!'
+
+This code breaks because Python thinks the apostrophe in 'There's' ends the string. We can use the backslash to fix the problem(for escaping characters), like this:
+
+>'There\'s a snake in my boot!'
+
+
+Each character in a string is assigned a number. This number is called the index.
+
+
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
+
+|** P** | **Y** |** T **|** H **| **O** |** N **|
+|----|
+|0   |1  | 2 |  3 |  4 |  5|
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!).
+
+######Pratice 1
+Assign the variable fifth_letter equal to the fifth letter of the string "MONTY".
+Remember that the fifth letter is not at index 5. Start counting your indices from zero.
+
+```
+>>> fifth_letter = "MONTY"[4]
+>>> print fifth_letter
+Y
+>>>
+```
+
+#####String methods
+
+Now that we know how to store strings, let's see how we can change them using string methods.
+
+String methods let you perform specific tasks for strings.
+
+We'll focus on four string methods:`len()`,
+`lower()`,`upper()`,`str()`.
+
+**len()**
+ The output when using this method will be the number of letters in the string.
+
+```
+>>> parrot="Norwegian Blue"
+>>> len(parrot)
+14
+>>> print len(parrot)
+14
+```
+
+**lower()**
+You can use the `lower()` method to get rid of all the capitalization in your strings.
+
+```
+>>> print parrot.lower()
+nowegian blue
+```
+
+**upper()**
+A similar method exists to make a string completely upper case.
+```
+parrot = "norwegian blue"
+
+>>> print parrot.upper()
+```
+**str()**
+
+Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings.
+
+```
+
+>>> pi=3.14
+>>> pi_1= str(pi)
+>>> type(pi_1)
+<type 'str'>
+```
+
+notice that methods that use dot notation only work with strings.On the other hand, len() and str() can work on other data types.
+
