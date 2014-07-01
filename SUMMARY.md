@@ -12,5 +12,6 @@
        * [Asking the user for input](first_steps/asking_the_user_for_input.md)
    * [Identation](first_steps/identation.md)
    * [Math operators](first_steps/math_operators.md)
+   * [Date and time Records](first_steps/date_and_time_records.md)
    * [Exercises](first_steps/exercises.md)
 
