@@ -86,6 +86,11 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
+Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string using `str()``.
+```
+>>> print "The value of pi is around " + str(3.14)
+The value of pi is around 3.14
+```
 
 - When more than one operator appears in an expression, the order of evaluation
 depends on the rules of precedence. For mathematical operators, Python follows mathematical convention.
