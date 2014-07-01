@@ -24,6 +24,7 @@ With Python you can add, subtract, multiply, divide numbers like this:
 |%|remainder of a division|
 
 
+
 ######Practice 1
 
 We are going to do the following operations:
@@ -79,18 +80,6 @@ We are going to follow the steps bellow:
 
 -  When you divide or multiply a integer by a float variable the result becomes float as well.
 
-- You can work with integer, string and float variables. But don't mix string variables with float and integer ones:
-```
->>> width+'Hello'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
-```
-Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string using `str()``.
-```
->>> print "The value of pi is around " + str(3.14)
-The value of pi is around 3.14
-```
 
 - When more than one operator appears in an expression, the order of evaluation
 depends on the rules of precedence. For mathematical operators, Python follows mathematical convention.

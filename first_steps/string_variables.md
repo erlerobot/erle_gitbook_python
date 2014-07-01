@@ -94,5 +94,17 @@ Now let's look at str(), which is a little less straightforward. The str() metho
 <type 'str'>
 ```
 
-notice that methods that use dot notation only work with strings.On the other hand, len() and str() can work on other data types.
+Notice that methods that use dot notation only work with strings.On the other hand, len() and str() can work on other data types.
 
+You can work with integer, string and float variables. But don't mix string variables with float and integer ones when making concatenations:
+```
+>>> width+'Hello'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string using `str()``.
+```
+>>> print "The value of pi is around " + str(3.14)
+The value of pi is around 3.14
+```
