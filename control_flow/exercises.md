@@ -34,6 +34,14 @@ Score Grade
 < 0.6 F
 ```
 
+######Exercise 4
+Write a programm that ask for a number to the user and clasifies it:
+```
+number <2 SMALL
+number <10 MEDIUM
+number rest LARGE
+```
+
 ##Solutions
 
 ######Exercise 1
@@ -90,4 +98,16 @@ Enter a score:0.79
 C
 >>>
 ```
-
+######Exercise 4
+```
+>>> num =raw_input ("Enter a number:")
+Enter a number:6
+>>> if num < 2:
+...   print "SMALL"
+... elif num < 10:
+...   print "MEDIUM"
+... else:
+...   print "LARGE"
+...
+MEDIUM
+>>>

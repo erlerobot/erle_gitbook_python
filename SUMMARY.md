@@ -18,4 +18,9 @@
    * [Logical operators](control_flow/logical_operators.md)
    * [Conditional statements](control_flow/conditional_statements.md)
    * [Exercises](control_flow/exercises.md)
+* [Functions](functions/README.md)
+   * [Function basics: Defining functions](functions/function_basics.md)
+   * [Importing functions](functions/importing_functions.md)
+   * [Built-in functions](functions/built-in_functions.md)
+   * [Exercises](functions/exercises.md)
 
