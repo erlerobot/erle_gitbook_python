@@ -22,5 +22,6 @@
    * [Function basics: Defining functions](functions/function_basics.md)
    * [Importing functions](functions/importing_functions.md)
    * [Built-in functions](functions/built-in_functions.md)
-   * [Exercises:Functions](functions/exercisesfunctions.md)
+* [Lists](lists/README.md)
+   * [Lists basics](lists/lists_basics.md)
 
