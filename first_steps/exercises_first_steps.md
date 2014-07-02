@@ -1,4 +1,6 @@
-## Exercises
+## Exercises: First steps
+
+
 
 ######Exercise 1
 
@@ -162,3 +164,4 @@ Enter de temperarute in Celsius:20
 The temperature in farenheit is: 52.0
 >>>
 ```
+

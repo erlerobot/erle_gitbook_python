@@ -1,4 +1,5 @@
-## Exercises
+## Exercises: Control flow
+
 
 ######Exercise 1
 Write a program to prompt the user for hours and rate per hour to compute gross pay.Take into account that the factory gives the employee 1.5 times the
@@ -111,3 +112,5 @@ Enter a number:6
 ...
 MEDIUM
 >>>
+```
+
