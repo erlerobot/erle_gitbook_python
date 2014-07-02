@@ -28,7 +28,7 @@ Example with `min`and strings:
 'E'
 ```
 
-The àbs`function returns the absolute value of a number, let's see an example:
+The `abs`function returns the absolute value of a number, let's see an example:
 ```
 >>> def distance_from_zero(arg):
 ...     print abs(arg)
