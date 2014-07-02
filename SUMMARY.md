@@ -23,6 +23,10 @@
    * [Importing functions](functions/importing_functions.md)
    * [Built-in functions](functions/built-in_functions.md)
    * [Exercises: Functions](functions/exercises_functions.md)
-* [Lists](lists/README.md)
+* [Lists and Dictionaries](lists/README.md)
    * [Lists basics](lists/lists_basics.md)
+       * [Strings as a list](lists/strings_as_a_list.md)
+       * [For loop with strings](lists/for_loop_with_strings.md)
+   * [Dictionaries basics](lists/dictionaries_basics.md)
+   * [Exercises: List and Dictionaries](lists/exercises_list_and_dictionaries.md)
 
