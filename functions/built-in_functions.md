@@ -20,7 +20,7 @@ Example with `max`:
 10
 >>>
 ```
-Note: The result of print and return is the same.
+Note: The result of print and return is the same in this case.Usually print displays something in the screen, while return asignd the function the stablished value.
 
 Example with `min`and strings:
 ```
