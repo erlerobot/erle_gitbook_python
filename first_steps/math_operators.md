@@ -78,7 +78,16 @@ We are going to follow the steps bellow:
 
 ##### Be careful!
 
--  When you divide or multiply a integer by a float variable the result becomes float as well.
+- When you divide or multiply a integer by a float variable the result becomes float as well.
+
+
+- When you divide an integer by another integer, the result is always an integer (rounded down, if needed).
+
+
+- When you divide a float by an integer, the result is always a float.
+
+
+- To divide two integers and end up with a float, you must first use float() to convert one of the integers to a float.
 
 
 - When more than one operator appears in an expression, the order of evaluation
