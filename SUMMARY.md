@@ -33,4 +33,5 @@
    * [Exercises: List and Dictionaries](lists/exercises_list_and_dictionaries.md)
 * [Exercise:Battleship](exercisebattleship/README.md)
    * [Battleship](exercisebattleship/battleship.md)
+   * [Solution:Battleship](exercisebattleship/solutionbattleship.md)
 
