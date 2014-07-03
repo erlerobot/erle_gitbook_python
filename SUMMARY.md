@@ -27,8 +27,10 @@
    * [Lists basics](lists/lists_basics.md)
        * [Strings as a list](lists/strings_as_a_list.md)
        * [For loop with lists](lists/for_loop_with_strings.md)
-       * [Introduction: Function + lists](lists/function_+_lists.md)
+       * [ Function + Lists](lists/function_+_lists.md)
    * [Dictionaries basics](lists/dictionaries_basics.md)
        * [For loop with dictionaries](lists/for_loop_with_dictionaries.md)
    * [Exercises: List and Dictionaries](lists/exercises_list_and_dictionaries.md)
+* [Exercise:Battleship](exercisebattleship/README.md)
+   * [Battleship](exercisebattleship/battleship.md)
 

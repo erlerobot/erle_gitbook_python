@@ -70,7 +70,7 @@ Ignore whether or not the item you're billing for is in stock.Note that your fun
 
 ######Exercise 4
 
-This exercise is a bit more complicate. We will review what we have seen till this point. The aim of this exercise is to make a gradebook for a teacher's  students.
+This exercise is a bit more complicate. We will review all about list and dictionaries. The aim of this exercise is to make a gradebook for  teacher's  students.
 
 Try to follow the steps:
 - Create three dictionaries: `lloyd`, `alice`, and `tyler`.

@@ -114,10 +114,37 @@ Then `.insert(index, item)` the string "cobra" at that index.Print the result.
 
 ##### Removing elements from a list
 
-Sometimes you need to remove something from a list. You can use `.remove()`command.
+Sometimes you need to remove something from a list.
+`n.pop(index)` will remove the item at index from the list and return it to you:
+```
+>>> n = [1, 3, 5]
+>>> n.pop(1)
+3
+>>> print n
+[1, 5]
+```
+
+`n.remove(item)` will remove the actual item if it finds it
+```
+>>> n = [1, 3, 5]
+>>> n.remove(3)
+>>> print n
+[1, 5]
+>>>
+```
+
+`del(n[1])` is like `.pop in that it will remove the item at the given index, but it won't return it:
+```
+>>> n=[1,3,5]
+>>> del(n[0])
+>>> print n
+[3, 5]
+```
+
+
 
 ######Practice 6
-From the list below remove 'dagger':
+From the list below remove 'dagger', choose the command you like of the above ones:
 ```
 backpack = ['xylophone', 'dagger', 'tent', 'bread loaf']
 ```
