@@ -8,7 +8,9 @@ This is a dictionary called d with three key-value pairs. The key 'key1' points 
 
 Dictionaries are great for things like phone books (pairing a name with a phone number), login pages (pairing an e-mail address with a username)...
 
-#####Acessing a dictionary
+#####Accessing a dictionary
+
+Note that accessing dictionary values by key is just like accessing list values by index.
 
 ######Practice 1
 Given this dictinary:
@@ -22,7 +24,7 @@ Print the value stored under the 'Sloth' key:
 105
 
 ```
-Note that accessing dictionary values by key is just like accessing list values by index.
+
 
 #####Adding elements to a dictionary
 

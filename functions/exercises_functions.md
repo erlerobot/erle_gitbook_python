@@ -163,7 +163,7 @@ the pay is: 475.0
 >>>
 ```
 ######Exercise 5
-Store this in a file. You can use `vi text editor`and then copy the content to a `.py`file, and execute it:
+Store this in a file. You can use `vi text editor`and open a `.py` file, save and execute it:
 ```
 root@erlerobot:~# vi trpcal.txt
 root@erlerobot:~# cp trpcal.txt trpcal.py

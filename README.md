@@ -30,10 +30,10 @@ Our small-size Linux computer is bringing robotics to the people and businesses.
 
 ##License
 
-This book is an adaptation of
+This book is an adaptation of:
 
 - [Code Academy course](http://www.codecademy.com/es/tracks/python?jump_to=4fcba68767e7c1000304119b) under Ryzac’s Digital Millennium Copyright Act (“DMCA”) Policy.
-- [Python for Informatics: Exploring Information (Version 0.0.8-d2 ) by Charles Severance](http://www.pythonlearn.com/book_008.pdf)
+- [Python for Informatics: Exploring Information (Version 0.0.8-d2 ) by Charles Severance](http://www.pythonlearn.com/book_008.pdf) licensed under a Creative Common Attribution-NonCommercial-ShareAlike 3.0 Unported License.
 
 
 Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.

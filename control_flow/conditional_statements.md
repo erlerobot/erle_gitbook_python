@@ -30,6 +30,7 @@ I get printed!
 `elif` is short for "else if." It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
 
 Here you find the example:
+```
 ```>>> if 8 > 9:
 ...     print "I don't get printed!"
 ... elif 8 < 9:

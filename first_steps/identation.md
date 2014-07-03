@@ -42,6 +42,4 @@ You should indent your code with four spaces.
 12
 ```
 
-A Matter of Interpretation
-The window in the top right corner of the page is called the interpreter. The interpreter runs your code line by line, and checks for any errors.
 

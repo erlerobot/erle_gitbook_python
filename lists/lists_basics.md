@@ -10,7 +10,7 @@ A list can also be empty: empty_list = [].
 
 Lists are very similar to strings, but there are a few key differences.
 
-##### Acessing a list
+##### Accessing a list
 
 You can access an individual item on the list by its index. An index is like an address that identifies the item's place in the list. The index appears directly after the list name, in between brackets, like this: list_name[index].
 
@@ -51,7 +51,7 @@ With the command `list_name.append('name')`you add a new item at the end of the 
 
 ######Practice 3
 
-Add the 5th elemnt to the list: "parrot". Display the number of list items and print the new list.
+Add the 5th element to the list: "parrot". Display the number of list items and print the new list.
 ```
 >>> zoo_animals.append("parrot")
 >>> print len(zoo_animals)

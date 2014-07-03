@@ -1,7 +1,7 @@
-## For loop with strings
+## For loop with lists
 
 
-If you want to do something with every item in the list, you can use a for loop. The command line is:
+If you want to do something with every item in the list, you can use a `for` loop. The command line is:
 ```
 for variable in list_name:
 ```
@@ -20,7 +20,7 @@ What does this code?
 ...
 ...
 ```
-The for loop will automatically execute your code as many times as there are items in my_list.The result is:
+The `for` loop will automatically execute your code as many times as there are items in my_list.The result is:
 ```
 ...
 2
@@ -32,7 +32,7 @@ The for loop will automatically execute your code as many times as there are ite
 >>>
 ```
 
-If your list is a jumbled mess, you may need to sort() it.Note that .sort() modifies the list rather than returning a new list.
+If your list is a jumbled mess, you may need to sort() it.Note that `.sort()` modifies the list rather than returning a new list.
 
 ######Practice 2
 Write a for-loop that iterates over `start_list = [5, 3, 1, 2, 4]` and `.append()s` each number squared (x ** 2) to `square_list`(initialized to empty list).
@@ -55,4 +55,23 @@ Then sort square_list.
 >>>
 over `start_list=[5, 3, 1, 2, 4] and .append()s each number squared (x ** 2) to `square_list` (which is initialized to empty list).
 Then sort square_list.
+```
+
+######Practice 3
+Use a `for` loop to print out all of the elements in the list names.
+```
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+```
+```
+>>> names = ["Adam","Alex","Mariah","Martine","Columbus"]
+>>>
+>>> for name in names:
+...    print name
+...
+Adam
+Alex
+Mariah
+Martine
+Columbus
+>>>
 ```
