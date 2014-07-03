@@ -34,4 +34,8 @@
 * [Exercise:Battleship](exercisebattleship/README.md)
    * [Battleship](exercisebattleship/battleship.md)
    * [Solution:Battleship](exercisebattleship/solutionbattleship.md)
+* [Loops](loops/README.md)
+   * [Loops basics](loops/loops_basics.md)
+   * [While loops](loops/while_loops.md)
+   * [Exercises: Loops](loops/exercises_loops.md)
 
