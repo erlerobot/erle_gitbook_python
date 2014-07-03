@@ -1,6 +1,8 @@
-## Function + lists
+## Introduction: Function + lists
 
-Functions can also take lists as inputs and perform various operations on those lists.Ler's see an example to understand how it works:
+Functions can also take lists as inputs and perform various operations on those lists.In later chapter we will deepen in this topic.
+
+For now,let's see an example to understand how it works:
 
 ######Practice 1
 
