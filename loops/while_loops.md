@@ -16,6 +16,7 @@ Hello, I am an if statement and count is 0
 >>>
 
 ```
+
 When using the following code we print the sentence 9 times(< is not the same as <=).Remember always to actualize the count, if not you get an infinite loop.
 ```
 ... while count < 10:
@@ -33,7 +34,8 @@ Hello, I am a while and count is 7
 Hello, I am a while and count is 8
 Hello, I am a while and count is 9
 >>>
-````
+```
+---
 ######Practice 2
 Create a while loop that prints out all the numbers from 1 to 10 squared (1, 4, 9, 16, ... , 100), each on their own line.
 ```
@@ -55,7 +57,7 @@ Create a while loop that prints out all the numbers from 1 to 10 squared (1, 4, 
 100
 >>>
 ```
-
+---
  ######Practice 3
  A common application of a while loop is to check user input to see if it is valid. For example, if you ask the user to enter y or n and they instead enter 7, then you should re-prompt them for input.Analyze the code bellow:
 

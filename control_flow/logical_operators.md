@@ -61,7 +61,7 @@ bool_four = True
 
 bool_five = True
 ```
-
+---
 ** or operator**
 
 `or`checks if at least one of the statements is True.
@@ -93,7 +93,7 @@ bool_four = True
 
 bool_five = False
 ```
-
+---
 **not operator**
 
 `not` gives the opposite of the statemen.
@@ -123,7 +123,7 @@ bool_four = True
 
 bool_five = False
 ```
-
+---
 
 #####The order of operators
 

@@ -46,6 +46,7 @@ Remember that the fifth letter is not at index 5. Start counting your indices fr
 Y
 >>>
 ```
+---
 
 #####String methods
 

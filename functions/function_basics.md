@@ -50,6 +50,7 @@ Define a function that returns the square of a number, and call it with the argu
 10 squared is 100.
 100
 ```
+---
 ######Practice 2
 
 Make the same and kind of function as in Practice 1, but using two arguments:base, exponent.
@@ -61,7 +62,7 @@ Make the same and kind of function as in Practice 1, but using two arguments:bas
 >>> power(37,4)  # Add your arguments here!
 37 to the power of 4 is 1874161.
 ```
-
+---
 
  A function can call another function, for example:
 

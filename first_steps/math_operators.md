@@ -55,7 +55,7 @@ We are going to do the following operations:
 0.0
 >>>
 ```
-
+---
 ######Practice 2
 We are going to follow the steps bellow:
 - Create two string variables.
@@ -74,7 +74,7 @@ We are going to follow the steps bellow:
 >>>
 ```
 
-
+---
 
 ##### Be careful!
 

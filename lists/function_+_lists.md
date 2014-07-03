@@ -27,7 +27,7 @@ root@erlerobot:~/Python_files# python count.py
 1
 root@erlerobot:~/Python_files#
 ```
-
+---
 #####Passing a range into a function
 
 The Python range() function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
@@ -70,6 +70,7 @@ Create a function called total that adds up all the elements of an arbitrary lis
 >>> total(n)
 15
 ```
+---
 ######Practice 3
 
 Create a function that concatenates strings.
@@ -87,4 +88,5 @@ Create a function that concatenates strings.
 MichaelLieberman
 >>>
 ```
+---
 Note, if you analize the codes of practice 2 and 3: you can see how when working with numbers( `for elemt in list`) elemt takes the value:0,1,2... while when working with strings elemt takes the string in index 0,1,2.. value.

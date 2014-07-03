@@ -2,7 +2,8 @@
 
 `if ` is a conditional statement that executes some specified code after checking if its expression is True.
 
-For example:
+######Practice 1
+Run this code and see what happend:
 ```
 >>> x=10
 >>> if x>2 :
@@ -12,9 +13,12 @@ It is a Large number.
 ```
 Note, the identation is very important here.
 
+---
 The `else` statement complements the `if` statement. An if/else pair says: "If this expression is true, run this indented code block; otherwise, run this code after the else statement."
 
 Unlike `if`, `else doesn't depend on an expression.
+
+#####Practice 2
 
 Let's see an example:
 ```
@@ -26,8 +30,11 @@ Let's see an example:
 I get printed!
 >>>
 ```
+---
 
 `elif` is short for "else if." It means exactly what it sounds like: "otherwise, if the following expression is true, do this!"
+
+######Practice 3
 
 Here you find the example:
 ```

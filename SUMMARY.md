@@ -37,5 +37,6 @@
 * [Loops](loops/README.md)
    * [Loops basics](loops/loops_basics.md)
    * [While loops](loops/while_loops.md)
+   * [For loop](loops/for_loop.md)
    * [Exercises: Loops](loops/exercises_loops.md)
 

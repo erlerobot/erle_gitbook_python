@@ -11,6 +11,20 @@ Write a program that generates a random number (0-10) and ask you to guess it. Y
 Decrement guesses_left by one.
 - Use an else: case after your while loop to print:You lose.
 
+###### Exercise 2
+Create a for loop that prompts the user for a hobby 3 times, then appends each one to hobbies.
+
+###### Exercise 3
+REmember: The `,` character after our print statement means that our next print statement keeps printing on the same line.
+Let's filter out the letter 'A' from our string.
+```
+phrase = "A bird in the hand..."
+```
+- Do the following `for` each character in the phrase.
+- If char is an 'A' or char is an 'a', print 'X', instead of char. Make sure to include the trailing comma.
+- Otherwise (else:), please print char, with the trailing comma.
+
+
 ##Solutions
 
 #####Exercise 1
@@ -31,3 +45,37 @@ while guesses_left>0:
     guesses_left-=1
 else:
     print "You lose"
+```
+And execute it.
+
+######Exercise 2
+```
+>>> hobbies = []
+>>> for i in range(3):
+...   hob=raw_input("Enter hobby:")
+...   hobbies.append(hob)
+...
+Enter hobby:Shopping
+Enter hobby:Swimming
+Enter hobby:Golf
+>>> print hobbies
+['Shopping', 'Swimming', 'Golf']
+>>>
+```
+
+######Exercise 3
+```
+>>> phrase = "A bird in the hand..."
+>>> for char in phrase:
+...     if char == "A" or char == "a":
+...         print "X",
+...     else:
+...         print char,
+...
+...
+...
+X   b i r d   i n   t h e   h X n d . . .
+>>>
+```
+
+

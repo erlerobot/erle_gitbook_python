@@ -12,6 +12,9 @@ print number
 ```
 print varibale
 ```
+
+The `,` character after our print statement means that our next print statement keeps printing on the same line.
+
 ######Practice 1
 
 Create a file with a  "Hello world " message and
@@ -23,6 +26,7 @@ root@erlerobot:~# python Hello.py
 Hello World!
 root@erlerobot:~#
 ```
+---
 ######Practice 2
 Create a file containing three numbers and print them on the screen:
 
@@ -36,7 +40,7 @@ root@erlerobot:~/Python_files# python Num.py
 4
 6
 ```
-
+---
 
 ######Practice 3
 
@@ -47,8 +51,8 @@ Python 2.7.3 (default, Sep 26 2013, 21:37:06)
 [GCC 4.6.3] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>> var="Hello"
->>> print var
-Hello
+>>> print "this is the variable: ", var
+this is the variable: Hello
 >>>
 ```
 

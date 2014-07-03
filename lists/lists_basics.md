@@ -26,8 +26,8 @@ Make a list containg the zoo animals and print the 2nd. and the last one:
 cassowary lion
 >>>
 ```
-
-A list index behaves like any other variable name! It can be used to access as well as assign values.
+---
+A list index behaves like any other variable name. It can be used to access as well as assign values.
 
 ######Practice 2
 Write an assignment statement that will replace the item that currently holds the value "lion" in the `zoo_animals` list with another animal the tiger.
@@ -42,7 +42,7 @@ tiger
 ```
 
 Note that with the command `print list_name` you get printed the compelte list.
-
+---
 #####Adding elements to a list
 A list doesn't have to have a fixed length. You can add items to the end of a list any time you like.
 
@@ -60,7 +60,7 @@ Add the 5th element to the list: "parrot". Display the number of list items and 
 ['pangolin', 'cassowary', 'sloth', 'tiger', 'parrot']
 >>>
 ```
-
+---
 #####Extracting parts of a list
 Sometimes, you only want to access a portion of a list.You should use this format command:
 ```
@@ -90,7 +90,7 @@ suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
 ['suit', 'shoes']
 >>>
 ```
-
+---
 ##### Finding the index of a list element
 
 You can use Use the `.index(item)` function to find the index of an element of the list.
@@ -111,7 +111,7 @@ Then `.insert(index, item)` the string "cobra" at that index.Print the result.
 ['aardvark', 'badger', 'cobra', 'duck', 'emu', 'fennec fox']
 >>>
 ```
-
+---
 ##### Removing elements from a list
 
 Sometimes you need to remove something from a list.

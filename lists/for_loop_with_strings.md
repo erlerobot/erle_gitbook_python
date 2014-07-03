@@ -31,7 +31,7 @@ The `for` loop will automatically execute your code as many times as there are i
 14
 >>>
 ```
-
+---
 If your list is a jumbled mess, you may need to sort() it.Note that `.sort()` modifies the list rather than returning a new list.
 
 ######Practice 2
@@ -56,7 +56,7 @@ Then sort square_list.
 over `start_list=[5, 3, 1, 2, 4] and .append()s each number squared (x ** 2) to `square_list` (which is initialized to empty list).
 Then sort square_list.
 ```
-
+---
 ######Practice 3
 Use a `for` loop to print out all of the elements in the list names.
 ```
@@ -75,7 +75,7 @@ Martine
 Columbus
 >>>
 ```
-
+---
 You can also use the `for`loop with strings:
 ######Practice 4
 We are going to print only the "i" letters for a string. Run this code and analyze what happend:
