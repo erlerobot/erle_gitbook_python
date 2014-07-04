@@ -46,5 +46,6 @@
 * [Advanced topics in Phyton](advanced_topics_in_phyton/README.md)
    * [List Comprehensions](advanced_topics_in_phyton/list_comprehensions.md)
    * [List Slicing](advanced_topics_in_phyton/list_slicing.md)
+   * [Lambdas](advanced_topics_in_phyton/lambda.md)
    * [Exercises:Advances topics in Python](advanced_topics_in_phyton/exercisesadvances_topics_in_python.md)
 
