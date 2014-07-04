@@ -52,4 +52,6 @@
    * [Bitwise operators basics](introduction_to_bitwise_operators/bitwise_operators_basics.md)
    * [The Base 2 Number System](introduction_to_bitwise_operators/the_base_2_number_system.md)
    * [Bitwise operators](introduction_to_bitwise_operators/bitwise_operators.md)
+   * [Advanced concepts about bitwise operators](introduction_to_bitwise_operators/advanced_concepts_about_bitwise_operators.md)
+   * [Exercises:Introduction to Bitwise Operators](introduction_to_bitwise_operators/exercisesintroduction_to_bitwise_operators.md)
 
