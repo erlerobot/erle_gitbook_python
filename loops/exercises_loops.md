@@ -54,7 +54,7 @@ Return the number of times the item occurs in the list.For example: count([1,2,1
 
 ######Exercise 9
 
-Write a function remove_duplicates that takes in a list and removes elements of the list that are the same.For example: remove_duplicates([1,1,2,2])
+Write a function `remove_duplicates` that takes in a list and removes elements of the list that are the same.For example: remove_duplicates([1,1,2,2])
 should return [1,2].
 
 ##Solutions

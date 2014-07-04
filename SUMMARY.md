@@ -39,4 +39,7 @@
    * [While loops](loops/while_loops.md)
    * [For loops](loops/for_loop.md)
    * [Exercises: Loops](loops/exercises_loops.md)
+* [Exercise: Exam statistics](exercise_exam_statics/README.md)
+   * [Exam statistics](exercise_exam_statics/exam_statics.md)
+   * [Solution:Exam statistics](exercise_exam_statics/solutionexam_statistics.md)
 

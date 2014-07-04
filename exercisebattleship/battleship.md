@@ -6,6 +6,9 @@ To build this game we will use our knowledge of lists, conditionals and function
 
 We will go step by step, given solutions  at the end you will find the solution(complete code stored in `battleship.py`).
 
+
+#####Ready? The computing starts here:
+
 - Create a variable board and set it equal to an empty list.
 
 - Create a 5 x 5 grid initialized to all 'O's and store it in board.
