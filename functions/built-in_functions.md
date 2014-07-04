@@ -6,6 +6,8 @@ You already know about some of the built-in functions:
 
 Now we are going to learn three new functions: `min`, `max`,`abs `.
 
+**max and min**
+
 The `max` and `min` functions give us the largest and smallest values in a list, respectively:
 
 Example with `max`:
@@ -27,6 +29,8 @@ Example with `min`and strings:
 >>> min("Erle")
 'E'
 ```
+
+**abs**
 
 The `abs`function returns the absolute value of a number, let's see an example:
 ```

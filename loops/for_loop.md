@@ -21,6 +21,9 @@ Done!
 >>>
 ```
 ---
+
+**Enumerate**
+
 A weakness of using this for-each style of iteration is that you don't know the index of the thing you're looking at. Generally this isn't an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in `enumerate` function helps with this.
 
 `enumerate` works by supplying a corresponding index to each element in the list that you pass it. Each time you go through the loop, index will be one greater, and item will be the next item in the sequence. It's very similar to using a normal for loop with a list, except this gives us an easy way to count how many items we've seen so far.
@@ -43,6 +46,8 @@ Your choices are:
 >>>
 ```
 ---
+
+**Zip**
 
 It's also common to need to iterate over two lists at once. This is where the built-in `zip` function comes in handy.`zip` will create pairs of elements when passed two lists, and will stop at the end of the shorter list.`zip` can handle three or more lists as well.
 
@@ -71,7 +76,9 @@ list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 
 ---
 
-Just like with `while`, for loops may have an else associated with them.
+**For/else**
+
+Just like with `while`, for loops may have an else associated with them.That is the for/else loop.
 
 In this case, the else statement is executed after the `for`, but only if the for ends normally—that is, not with a break.
 

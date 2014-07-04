@@ -24,7 +24,7 @@ Print the value stored under the 'Sloth' key:
 105
 
 ```
-
+---
 
 #####Adding elements to a dictionary
 
@@ -57,6 +57,7 @@ There are 3 items on the menu.
 {'Sunday': 16.78, 'Tuesday': 9.98, 'Monday': 6.78}
 >>>
 ```
+---
 #####Removing elements from a dictionary and associating values with keys.
 
 Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the del command:

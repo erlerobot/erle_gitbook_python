@@ -42,6 +42,7 @@ tiger
 ```
 
 Note that with the command `print list_name` you get printed the compelte list.
+
 ---
 #####Adding elements to a list
 A list doesn't have to have a fixed length. You can add items to the end of a list any time you like.

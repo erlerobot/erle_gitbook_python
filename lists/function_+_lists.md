@@ -28,6 +28,7 @@ root@erlerobot:~/Python_files# python count.py
 root@erlerobot:~/Python_files#
 ```
 ---
+
 #####Passing a range into a function
 
 The Python range() function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
