@@ -30,6 +30,7 @@
        * [ Function + Lists](lists/function_+_lists.md)
    * [Dictionaries basics](lists/dictionaries_basics.md)
        * [For loop with dictionaries](lists/for_loop_with_dictionaries.md)
+       * [Iterators for dictionaries](lists/iterators_for_dictionaries.md)
    * [Exercises: List and Dictionaries](lists/exercises_list_and_dictionaries.md)
 * [Exercise:Battleship](exercisebattleship/README.md)
    * [Battleship](exercisebattleship/battleship.md)
@@ -42,4 +43,8 @@
 * [Exercise: Exam statistics](exercise_exam_statics/README.md)
    * [Exam statistics](exercise_exam_statics/exam_statics.md)
    * [Solution:Exam statistics](exercise_exam_statics/solutionexam_statistics.md)
+* [Advanced topics in Phyton](advanced_topics_in_phyton/README.md)
+   * [List Comprehensions](advanced_topics_in_phyton/list_comprehensions.md)
+   * [List Slicing](advanced_topics_in_phyton/list_slicing.md)
+   * [Exercises:Advances topics in Python](advanced_topics_in_phyton/exercisesadvances_topics_in_python.md)
 
