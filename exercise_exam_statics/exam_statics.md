@@ -80,7 +80,7 @@ Note:You can also use a for loop.
 ...     return ave
 ...
 >>> print grades_average(grades)
-1045.5
+80.4230769231
 ```
 - We're going to use the average for computing the variance. The variance allows us to see how widespread the grades were from the average.
  + Define a new function called `grades_variance()` that accepts one argument, scores, a list.
