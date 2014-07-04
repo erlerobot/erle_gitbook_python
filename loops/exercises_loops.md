@@ -1,4 +1,4 @@
-# Exercises: Loops
+## Exercises: Loops
 
 ######Exercise 1
 Write a program that generates a random number (0-10) and ask you to guess it. You have three asserts.
