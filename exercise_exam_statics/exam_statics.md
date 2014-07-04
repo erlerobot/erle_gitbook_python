@@ -61,6 +61,9 @@ We are going to make a function to print them.
 >>>
 >>>
 ```
+Note:You can also use a for loop.
+
+
 - Define a function `grades_average()`, below the grades_sum() function that does the following:
 
  + Has one argument, grades, a list
@@ -79,4 +82,45 @@ We are going to make a function to print them.
 >>> print grades_average(grades)
 1045.5
 ```
+- We're going to use the average for computing the variance. The variance allows us to see how widespread the grades were from the average.
+ + Define a new function called `grades_variance()` that accepts one argument, scores, a list.
+ + First, create a variable average and store the result of calling `grades_average(scores)`.
+ + Next, create another variable variance and set it to zero. We will use this as a rolling sum.
+for each score in scores: Compute its squared difference: (average - score) ** 2 and add that to variance.
+ + Divide the total variance by the number of scores.
+ + Then, return that result.
+ + Finally, after your function code, print `grades_variance(grades)`.
+
+**Solution 4**
+```
+>>> def grades_variance(scores):
+...     average=grades_average(scores)
+...     variance=0
+...     for score in scores:
+...         add=(average-score)**2
+...         variance += add
+...     var_tot=variance/len(scores)
+...     return var_tot
+...
+>>> print grades_variance(grades)
+334.071005917
+```
+- The standard deviation is the square root of the variance. You can calculate the square root by raising the number to the one-half power.
+
+ + Define a function `grades_std_deviation(variance)`.
+return the result of variance ** 0.5
+ + After the function, create a new variable called variance and store the result of calling `grades_variance(grades)`.
+ + Finally print the result of calling `grades_std_deviation(variance)`.
+
+**Solution 5**
+```
+>>> def grades_std_deviation(variance):
+...     return variance**0.5
+...
+>>> variance=grades_variance(grades)
+334.071005917
+>>> print grades_std_deviation(variance)
+18.2776094147
+```
+
 
