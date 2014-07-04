@@ -52,6 +52,7 @@ Analyze the code bellow:
 >>>
 ```
 Note thet the while condition is always true, what leads to a infinite loop. See the effect of using `break`.
+
 ---
 
 **Continue**
