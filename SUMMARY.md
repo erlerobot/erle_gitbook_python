@@ -48,4 +48,8 @@
    * [List Slicing](advanced_topics_in_phyton/list_slicing.md)
    * [Lambdas](advanced_topics_in_phyton/lambda.md)
    * [Exercises:Advances topics in Python](advanced_topics_in_phyton/exercisesadvances_topics_in_python.md)
+* [Introduction to Bitwise Operators](introduction_to_bitwise_operators/README.md)
+   * [Bitwise operators basics](introduction_to_bitwise_operators/bitwise_operators_basics.md)
+   * [The Base 2 Number System](introduction_to_bitwise_operators/the_base_2_number_system.md)
+   * [Bitwise operators](introduction_to_bitwise_operators/bitwise_operators.md)
 
