@@ -54,4 +54,7 @@
    * [Bitwise operators](introduction_to_bitwise_operators/bitwise_operators.md)
    * [Advanced concepts about bitwise operators](introduction_to_bitwise_operators/advanced_concepts_about_bitwise_operators.md)
    * [Exercises:Introduction to Bitwise Operators](introduction_to_bitwise_operators/exercisesintroduction_to_bitwise_operators.md)
+* [Classes](classes/README.md)
+   * [Classes basics](classes/classes_basics.md)
+   * [Member variables and functions](classes/member_variables_and_functions.md)
 
