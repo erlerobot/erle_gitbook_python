@@ -16,6 +16,24 @@ Create a list, `to_21`, that's just the numbers from 1 to 21, inclusive.
 Create a second list, `odds`, that contains only the odd numbers in the `to_21` list (1, 3, 5, and so on). Use list slicing for this one instead of a list comprehension.
 Finally, create a third list, `middle_third`, that's equal to the middle third of `to_21, from 8 to 14, inclusive.
 
+######Exercise 4
+Create a list, squares, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here.
+Use `filter()` and a lambda expression to print out only the squares that are between 30 and 70 (inclusive).
+
+######Exercise 5
+The string
+```
+garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"`
+```
+is garbled in two ways:
+
+ + First, our message is backwards;
+ + Second, the letter we want is every other letter.
+
+Use lambda and filter to extract the message and save it to a variable called message.
+Use list slicing to extract the message and save it to a variable called message.
+
+
 ##Solutions
 
 ######Exercise 1
@@ -51,4 +69,37 @@ Finally, create a third list, `middle_third`, that's equal to the middle third o
 [8, 9, 10, 11, 12, 13, 14]
 >>>
 
+```
+
+######Exercise 4
+```
+>>> squares= [i**2 for i in range(1,11) ]
+>>> print squares
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+>>>
+>>> print filter(lambda x: x<=70 and x>=30,squares)
+[36, 49, 64]
+>>>
+```
+
+######Exercise 5
+```
+>>> garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+>>>
+>>> mess1=garbled[::-1]
+>>> print mess1
+IX XaXmX XtXhXeX XsXeXcXrXeXtX XmXeXsXsXaXgXeX!
+>>>
+>>> #Using filter
+...
+>>> message=filter(lambda let: let != "X",mess1)
+>>> print message
+I am the secret message!
+>>>
+>>>#Using list slicing
+...
+>>> message=mess1[::2]
+>>> print message
+I am the secret message!
+```
 ```
