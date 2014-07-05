@@ -58,4 +58,5 @@
    * [Classes basics](classes/classes_basics.md)
    * [Member variables and functions](classes/member_variables_and_functions.md)
    * [Inheritance](classes/inheritance.md)
+   * [Exercises:Classes](classes/exercisesclasses.md)
 
