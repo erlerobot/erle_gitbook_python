@@ -59,4 +59,7 @@
    * [Member variables and functions](classes/member_variables_and_functions.md)
    * [Inheritance](classes/inheritance.md)
    * [Exercises:Classes](classes/exercisesclasses.md)
+* [Exercise: Car](exercise_car/README.md)
+   * [Car](exercise_car/car.md)
+   * [Solution:Car](exercise_car/solutioncar.md)
 

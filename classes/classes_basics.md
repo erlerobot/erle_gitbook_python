@@ -8,6 +8,8 @@ Python checks to see if my_dict has an items() method (which all dictionaries ha
 
 But what makes "Eric" a string and my_dict a dictionary? The fact that they're instances of the str and dict classes, respectively. In other words,a class is just a way of organizing and producing objects with similar attributes and methods.
 
+This OOP is a very powerful tool and it can be very useful.In [Phyton Documentation](https://docs.python.org/2/reference/datamodel.html#) you can find more information about it.
+
 #####Class syntaxis
 
 A basic class consists only of the class keyword, the name of the class, and the class from which the new class inherits in parentheses. For now, our classes will inherit from the object class, like so:
