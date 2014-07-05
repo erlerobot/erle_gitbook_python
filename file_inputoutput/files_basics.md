@@ -30,5 +30,47 @@ Now it's time to write some data to our output.txt file.We can write to a Python
 my_file.write("Data to be written")
 ```
 The `write()` function takes a string argument, so we'll need to do a few things here:
+You must close the file. You do this simply by calling `my_file.close() (we did this for you in the last exercise). If you don't close your file, Python won't write to it properly.
+
+
+######Practice 2
+Create a variables called `my_list` that contains
+the squared numbers from 1 to 10.
+Open yout `my_list`in "+r" mode and iterate over it to get each value.
+Use `my_file.write()` to write each value to `output.txt`
+Make sure to call `str()` on the iterating data so `.write()` will accept it
+Make sure to add a newline ("\n") after each element to ensure each will appear on its own line.
+Use `my_file.close()` to close the file when you're done.
+
+```
+>>> my_list = [i**2 for i in range(1,11)]
+>>>
+>>> my_file = open("output.txt", "r+")
+>>>
+>>>
+>>> for num in my_list:
+...     data=str(num)
+...     my_file.write(data)
+...     my_file.write("\n")
+...
+>>> my_file.close()
+```
+Now if you display the content of the file `output.txt`you find this:
+```
+root@erlerobot:~/Python_files# cat output.txt
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+root@erlerobot:~/Python_files#
+```
+
+
 
 
