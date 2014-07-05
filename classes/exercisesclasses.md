@@ -106,7 +106,7 @@ class Lunch(object):
 Paul=Lunch("menu 1")
 Paul.menu_price()
 ```
-The execution shold be:
+The execution should be:
 
 ```
 root@erlerobot:~/Python_files# python menu.py

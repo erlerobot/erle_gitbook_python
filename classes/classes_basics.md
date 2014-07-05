@@ -2,8 +2,8 @@
 
 A class is basically a scope inside which various code (especially function definitions) is executed, and the locals to this scope become attributes of the class, and of any objects constructed by this class.
 
-Python is an object-oriented programming language, which means it manipulates programming constructs called objects. You can think of an object as a single data structure that contains data as well as functions; functions of objects are called methods. For example, any time you call `len("Eric")`
-Python is checking to see whether the string object you passed it has a length, and if it does, it returns the value associated with that attribute. When you call `my_dict.items().
+Python is an object-oriented programming language, which means it manipulates programming constructs called objects. You can think of an object as a single data structure that contains data as well as functions; functions of objects are called methods. For example, any time you call `len("Eric")`.
+Python is checking to see whether the string object you passed it has a length, and if it does, it returns the value associated with that attribute. When you call `my_dict.items()`.
 Python checks to see if my_dict has an items() method (which all dictionaries have) and executes that method if it finds it.
 
 But what makes "Eric" a string and my_dict a dictionary? The fact that they're instances of the str and dict classes, respectively. In other words,a class is just a way of organizing and producing objects with similar attributes and methods.
