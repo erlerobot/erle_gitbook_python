@@ -64,4 +64,5 @@
    * [Solution:Car](exercise_car/solutioncar.md)
 * [File Input/Output](file_inputoutput/README.md)
    * [Files basics](file_inputoutput/files_basics.md)
+   * [Exercises: File Input /Output](file_inputoutput/exercises_file_input_output.md)
 
