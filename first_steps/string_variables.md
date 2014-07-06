@@ -40,7 +40,7 @@ So if you wanted "Y", you could just type
 Assign the variable fifth_letter equal to the fifth letter of the string "MONTY".
 Remember that the fifth letter is not at index 5. Start counting your indices from zero.
 
-```
+```python
 >>> fifth_letter = "MONTY"[4]
 >>> print fifth_letter
 Y
@@ -60,7 +60,7 @@ We'll focus on four string methods:`len()`,
 **len()**
  The output when using this method will be the number of letters in the string.
 
-```
+```python
 >>> parrot="Norwegian Blue"
 >>> len(parrot)
 14
@@ -71,23 +71,22 @@ We'll focus on four string methods:`len()`,
 **lower()**
 You can use the `lower()` method to get rid of all the capitalization in your strings.
 
-```
+```python
 >>> print parrot.lower()
 nowegian blue
 ```
 
 **upper()**
 A similar method exists to make a string completely upper case.
-```
-parrot = "norwegian blue"
-
+```python
+>>> parrot = "norwegian blue"
 >>> print parrot.upper()
 ```
 **str()**
 
 Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings.
 
-```
+```python
 >>> pi=3.14
 >>> pi_1= str(pi)
 >>> type(pi_1)
@@ -97,14 +96,14 @@ Now let's look at str(), which is a little less straightforward. The str() metho
 Notice that methods that use dot notation only work with strings.On the other hand, len() and str() can work on other data types.
 
 You can work with integer, string and float variables. But don't mix string variables with float and integer ones when making concatenations:
-```
+```python
 >>> width+'Hello'
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string using `str()``.
-```
+```python
 >>> print "The value of pi is around " + str(3.14)
 The value of pi is around 3.14
 ```
@@ -117,8 +116,7 @@ When you want to print a variable with a string, there is a better method than c
 We are going to print a message like this:
 " ---- is an awesome ----!". Where instead of --- we will introduce two strings:
 
-```
-
+```python
 >>> string_1="Erle"
 >>> string_2="drone"
 >>> print " %s is an awesome %s!"%(string_1,string_2)

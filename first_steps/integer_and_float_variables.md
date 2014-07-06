@@ -11,7 +11,7 @@ Float refers to a decimal number, such as:
 
 You can use the commands `float()`and `int()` to change from onte type to another:
 
-```
+```python
 >>> float (8)
 8.0
 >>> int(9.5)
