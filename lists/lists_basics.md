@@ -100,10 +100,10 @@ You can use Use the `.index(item)` function to find the index of an element of t
 Given
 ```python
 animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
-```python
+```
 Use the `.index(item)` function to find the index of "duck".
 Then `.insert(index, item)` the string "cobra" at that index.Print the result.
-```
+```python
 >>> animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
 >>> print animals.index("duck")
 2
