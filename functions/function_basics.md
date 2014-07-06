@@ -66,7 +66,7 @@ Make the same and kind of function as in Practice 1, but using two arguments:bas
 
  A function can call another function, for example:
 
- ######Practice 3
+######Practice 3
 
 Define `one_good_turn` (which adds 1 to the number it takes in as an argument) and `deserves_another` (which adds 2).
 
