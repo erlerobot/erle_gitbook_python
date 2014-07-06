@@ -29,7 +29,7 @@ The string "PYTHON" has six characters,
 numbered 0 to 5, as shown below:
 
 
-|** P** | **Y** |** T **|** H **| **O** |** N **|
+|**P** | **Y** |**T**|**H**| **O** |**N**|
 |----|---|---|---|---|---|
 |0   |1  | 2 |  3 |  4 |  5|
 
