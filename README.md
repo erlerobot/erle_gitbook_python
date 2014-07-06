@@ -7,7 +7,7 @@
 
 This book is a **Python Programming Language** tutorial using [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
-Throught this tutorial you will find examples and explanations of how to use Phyton's sintaxis, variables, fuctions... Definitely, you will learn to program in Phyton language.
+Throught this tutorial you will find examples and explanations of how to use Python's sintaxis, variables, fuctions... Definitely, you will learn to program in Python language.
 
 
 
@@ -34,6 +34,7 @@ This book is an adaptation of:
 
 - [Code Academy course](http://www.codecademy.com/es/tracks/python?jump_to=4fcba68767e7c1000304119b) under Ryzac’s Digital Millennium Copyright Act (“DMCA”) Policy.
 - [Python for Informatics: Exploring Information (Version 0.0.8-d2 ) by Charles Severance](http://www.pythonlearn.com/book_008.pdf) licensed under a Creative Common Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+- [Python Documentation](https://www.python.org/doc/)
 
 
 Unless specified, this content is licensed under the Creative Commons Attribution-NonComercial-Share Alike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
