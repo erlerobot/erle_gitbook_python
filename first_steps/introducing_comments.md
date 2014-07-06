@@ -25,7 +25,7 @@ root@erlerobot:~#
 The # sign will only comment out a single line. While you could write a multi-line comment, starting each line with #, that can be a pain.
 
 Instead, for multi-line comments, you can include the whole block in a set of triple quotation marks:
-```
+```python
 """This is a paragraph containing
 readonly comments"""
 ```

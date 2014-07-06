@@ -2,14 +2,14 @@
 
 For displaying a desired sentence os text on the scrren you should use a simple sintaxis, like the following one:
 
-```
+```python
 print " Text goes here"
 ```
 You can also display numbers and varibales:
-```
+```python
 print number
 ```
-```
+```python
 print varibale
 ```
 
@@ -50,10 +50,14 @@ root@erlerobot:~/Python_files# python
 Python 2.7.3 (default, Sep 26 2013, 21:37:06)
 [GCC 4.6.3] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
+```
+Like this you initialize the python program.
+
+```python
 >>> var="Hello"
 >>> print "this is the variable: ", var
 this is the variable: Hello
->>>
+
 ```
 
 Notice that we have use the two methods of running Python.
