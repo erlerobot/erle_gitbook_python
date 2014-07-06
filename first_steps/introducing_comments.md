@@ -10,6 +10,7 @@ The # sign is for comments. A comment is a line of text that Python won't try to
 
 Write a comment on line 1. Make sure it starts with #. It can say anything you like.
 The result when running a comment on the interpeter must be the following one:
+
 ```
 root@erlerobot:~# touch Comment.py
 root@erlerobot:~# echo ' #This is a comment (readonly)' > Comment.py

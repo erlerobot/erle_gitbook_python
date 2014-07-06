@@ -88,7 +88,6 @@ parrot = "norwegian blue"
 Now let's look at str(), which is a little less straightforward. The str() method turns non-strings into strings.
 
 ```
-
 >>> pi=3.14
 >>> pi_1= str(pi)
 >>> type(pi_1)
@@ -119,6 +118,7 @@ We are going to print a message like this:
 " ---- is an awesome ----!". Where instead of --- we will introduce two strings:
 
 ```
+
 >>> string_1="Erle"
 >>> string_2="drone"
 >>> print " %s is an awesome %s!"%(string_1,string_2)

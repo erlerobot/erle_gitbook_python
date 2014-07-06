@@ -9,7 +9,7 @@ We are going to make a programm that ask your name and your favorite color and s
 
 We store this code into a file called Raw.py:
 
-```
+```python
 
 name = raw_input("What is your name?")
 color = raw_input("What is your favorite color?")
