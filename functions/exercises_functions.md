@@ -66,40 +66,7 @@ Follow the stpes:
 if that number is divisible by 3,` by_three `should call `cube(number)` and return its result. Otherwise, `by_three` should return False.
 -Check if it works.
 
-######Exercise 7
----
-Given the following code:
-```
-def fred():
-     print "Zap"
-def jane():
-     print "ABC"
 
-jane()
-fred()
-jane()
-```
-
-
-
-What will the following Python program print out?:
-- [ ] Zap ABC jane fred jane
-- [x] ABC Zap ABC
-- [ ] Zap Zap Zap
-- [ ] ABC Zap jane
-- [ ] Zap ABC Zap
-
-> If you compile the code, you can see the answer
-```
->>> jane()
-ABC
->>> fred()
-Zap
->>> jane()
-ABC
-```
-
----
 
 ##Solutions
 

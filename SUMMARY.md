@@ -10,6 +10,7 @@
        * [Boolean variables](first_steps/boollean_variables.md)
        * [String variables](first_steps/string_variables.md)
        * [Asking the user for input](first_steps/asking_the_user_for_input.md)
+       * [Random numbers](first_steps/random_numbers.md)
    * [Identation](first_steps/identation.md)
    * [Math operators](first_steps/math_operators.md)
    * [Date and time Records](first_steps/date_and_time_records.md)

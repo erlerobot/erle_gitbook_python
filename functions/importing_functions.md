@@ -1,10 +1,12 @@
 ## Importing functions
 
-A module is a file that contains definitions—including variables and functions—that you can use once it is imported.There is a Python module named math that includes a number of useful variables and functions, and sqrt() is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic import.
+A module is a file that contains definitions—including variables and functions—that you can use once it is imported.There is a Python module named math that includes a number of useful variables and functions, and `sqrt()` is one of those functions. In order to access math, all you need is the import keyword. When you simply import a module this way, it's called a generic import.
+
+Note: We have done this with `random`and with `datetime`.
 
 To import a function (in this case `sqrt()` function) from this module follow the steps:
 - Type `import math` .
--Insert `math.` before `sqrt()` so that it has the form `math.sqrt()`. This tells Python not only to import `math`, but to get the `sqrt()` function from within `math`.
+- Insert `math.` before `sqrt()` so that it has the form `math.sqrt()`. This tells Python not only to import `math`, but to get the `sqrt()` function from within `math`.
 
 Here you have an example:
 

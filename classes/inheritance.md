@@ -132,7 +132,7 @@ class Derived(Base):
 ```
 Where `m()` is a method from the base class.
 
-#####Practice 4
+######Practice 4
 After the code in Practice 3:
 First, inside your PartTimeEmployee class:
  + Add a new method called `full_time_wage` with the arguments self and hours.

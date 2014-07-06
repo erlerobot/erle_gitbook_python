@@ -32,7 +32,7 @@ my_car.drive_car()
 print my_car.condition
 ```
 The execution should result on:
-```
+
 ```
 root@erlerobot:~/Python_files# python menu.py
 new

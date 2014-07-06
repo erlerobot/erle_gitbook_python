@@ -176,9 +176,9 @@ Write any data you like to the `text.txt` file using `with...as`. Give your file
 
 ---
 
-#####Checking if it is closed
+#####Checking if the file is closed
 
-Finally, we'll want a way to test whether a file we've opened is closed. Sometimes we'll have a lot of file objects open, and if we're not careful, they won't all be closed. We csn check it with:
+Finally, we'll want a way to test whether a file we've opened is closed. Sometimes we'll have a lot of file objects open, and if we're not careful, they won't all be closed. We can check it with:
 
 ```
 f = open("bg.txt")

@@ -27,3 +27,4 @@ You can also store part of the date:
 >>>
 ```
 
+You can also print `now.hour`, `now.minute`, `now.second`.
