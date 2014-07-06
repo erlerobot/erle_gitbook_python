@@ -29,12 +29,12 @@ The string "PYTHON" has six characters,
 numbered 0 to 5, as shown below:
 
 
-|**P** | **Y** |**T**|**H**| **O** |**N**|
-|----|---|---|---|---|---|
+|** P** | **Y** |** T **|** H **| **O** |**N**|
+|----|
 |0   |1  | 2 |  3 |  4 |  5|
 
 So if you wanted "Y", you could just type
-`"PYTHON"[1]` (always start counting from 0!).
+"PYTHON"[1] (always start counting from 0!).
 
 ######Pratice 1
 Assign the variable fifth_letter equal to the fifth letter of the string "MONTY".
@@ -103,6 +103,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 Sometimes you need to combine a string with something that isn't a string. In order to do that, you have to convert the non-string into a string using `str()``.
+
 ```python
 >>> print "The value of pi is around " + str(3.14)
 The value of pi is around 3.14

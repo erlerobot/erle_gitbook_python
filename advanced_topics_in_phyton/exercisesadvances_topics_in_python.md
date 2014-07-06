@@ -37,14 +37,14 @@ Use list slicing to extract the message and save it to a variable called message
 ##Solutions
 
 ######Exercise 1
-```
+```python
 >>> cubes_by_four = [i**3 for i in range(1,11) if i**3 % 4 == 0 ]
 >>>
 >>> print cubes_by_four
 [8, 64, 216, 512, 1000]
 ```
 ######Exercise 2
-```
+```python
 >>> to_one_hundred = range(101)
 >>>
 >>> backwards_by_tens=to_one_hundred[::-10]
@@ -55,7 +55,7 @@ Use list slicing to extract the message and save it to a variable called message
 ```
 
 ######Exercise 3
-```
+```python
 >>> to_21=range(1,22)
 >>> print to_21
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -72,7 +72,7 @@ Use list slicing to extract the message and save it to a variable called message
 ```
 
 ######Exercise 4
-```
+```python
 >>> squares= [i**2 for i in range(1,11) ]
 >>> print squares
 [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
@@ -83,7 +83,7 @@ Use list slicing to extract the message and save it to a variable called message
 ```
 
 ######Exercise 5
-```
+```python
 >>> garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
 >>>
 >>> mess1=garbled[::-1]

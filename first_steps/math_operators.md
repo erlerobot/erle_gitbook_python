@@ -32,7 +32,7 @@ We are going to do the following operations:
 - Squar num variable.
 - Multiply num from a new variables called num1 equal to the division of two numbers.
 
-```
+```python
 >>> # create num variable
 ...
 >>> num = 23 +90
@@ -61,7 +61,7 @@ We are going to follow the steps bellow:
 - Create two string variables.
 - Sum them.
 
-```
+```python
 >>>
 >>> #Create two string variables
 ...

@@ -8,7 +8,7 @@ Define a function, `check_bit4, with one argument, input, an integer.
 It should check to see if the fourth bit from the right is on.
 If the bit is on, return "on" (not print!)
 If the bit is off, return "off".
-```
+```python
 >>> def check_bit4(input):
 ...     mask=0b1000
 ...     if input&mask >0:
@@ -24,7 +24,7 @@ If the bit is off, return "off".
 ---
 
 You can also use masks to **turn a bit in a number on** using |. For example, let's say I want to make sure the rightmost bit of number a is turned on. I could do this:
-```
+```python
 >>> a = 0b110 # 6
 >>> mask = 0b1 # 1
 >>> desired =  a | mask # 0b111, or 7
@@ -35,7 +35,7 @@ Using the bitwise | operator will turn a corresponding bit on if it is off and l
 Using the XOR (^) operator is very useful for **flipping bits**. Using ^ on a bit with the number one will return a result where that bit is flipped.
 
 For example, let's say I want to flip all of the bits in a. I might do this:
-```
+```python
 >>>
 >>> a = 0b110 # 6
 >>> mask = 0b111 # 7
@@ -43,7 +43,7 @@ For example, let's say I want to flip all of the bits in a. I might do this:
 ```
 
 Finally, you can also use the left shift (<<) and right shift (>>) operators to slide masks into place.
-```
+```python
 >>> a = 0b101
 >>> # Tenth bit mask
 ...

@@ -2,7 +2,7 @@
 
 ######Exercise 1
 Given the following dictionary:
-```
+```python
 inventory = {
     'gold' : 500,
     'pouch' : ['flint', 'twine', 'gemstone'],
@@ -45,7 +45,7 @@ Follow the steps:
 - First, make a list called groceries with the values "banana","orange", and "apple".
 - Define this two dictionaries:
 
-```
+```python
 stock = {
     "banana": 6,
     "apple": 0,
@@ -77,7 +77,7 @@ Try to follow the steps:
 - Give each dictionary the keys "name", "homework", "quizzes", and "tests".Have the "name" key be the name of the student (that is, lloyd's name should be "Lloyd") and the other keys should be an empty list.
 Look in solutions, the "solution 1". Chechk if you have done it rigth.
 - Now copy this code:
- ```
+ ```python
 lloyd = {
     "name": "Lloyd",
     "homework": [90.0,97.0,75.0,92.0],
@@ -137,14 +137,14 @@ Otherwise: return "F"
  + For each student item in the class list, calculate get_average(student) and then call results.append() with that result.
  + Finally, return the result of calling average() with results.
 
-- Finally, print out the result of calling get_class_average with your students list. Your students should be [lloyd, alice, tyler].
-- Then, print the result of get_letter_grade for the class's average.
+- Finally, print out the result of calling `get_class_average `with your students list. Your students should be [lloyd, alice, tyler].
+- Then, print the result of `get_letter_grade` for the class's average.
 
 
 ##Solutions
 
 ######Exercise 1
-```
+```python
 >>> inventory = {
 ...     'gold' : 500,
 ...     'pouch' : ['flint', 'twine', 'gemstone'],
@@ -168,7 +168,7 @@ Otherwise: return "F"
 
 Create and edit a `supermarket.py` file with `vi text editor` like this one:
 
-```
+```python
   1 #Create the prices dictionary:
   2 prices={}
   3 #Add values
@@ -227,7 +227,7 @@ root@erlerobot:~/Python_files#
 ######Exercise 3
 
 Create a `shoplist.py`list with this content:
-```
+```python
 shopping_list = ["banana", "orange", "apple"]
 
 stock = {
@@ -267,7 +267,7 @@ root@erlerobot:~/Python_files#
 
 **Solution 1**
 
-```
+```python
 lloyd = {
     "name": "Lloyd",
     "homework": [],

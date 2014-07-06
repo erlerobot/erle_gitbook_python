@@ -10,7 +10,7 @@ Write a function that counts how many times the string "fizz" appears in a list.
 
 We create a count.py file with this content:
 
-```
+```python
 def fizz_count(x):
     count=0
     for item in x:
@@ -32,13 +32,13 @@ root@erlerobot:~/Python_files#
 #####Passing a range into a function
 
 The Python range() function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
-```
+```python
 range(6) # => [0,1,2,3,4,5]
 range(1,6) # => [1,2,3,4,5]
 range(1,6,3) # => [1,4]
 ```
 The range function has three different versions:
-```
+```python
 range(stop)
 range(start, stop)
 range(start, stop, step)
@@ -46,7 +46,7 @@ range(start, stop, step)
 In all cases, the range() function returns a list of numbers from start up to (but not including) stop. Each item Each item increases by step.If omitted, start defaults to zero and step defaults to one.
 
 Now you can iterate through indexes:
-```
+```python
 for i in range(len(list)):
     print list[i]
     ```
@@ -57,7 +57,7 @@ This method is much safer. Since we aren't modifying the list.
 
 Create a function called total that adds up all the elements of an arbitrary list and returns that count, using the existing code as a hint. Use a for loop so it can be used for any size list.
 
-```
+```python
 >>> def total(numbers):
 ...   result=0
 ...   for number in range(len(numbers)):
@@ -75,7 +75,7 @@ Create a function called total that adds up all the elements of an arbitrary lis
 ######Practice 3
 
 Create a function that concatenates strings.
-```
+```python
 >>> def join_strings(words):
 ...     result=""
 ...     for i in words:

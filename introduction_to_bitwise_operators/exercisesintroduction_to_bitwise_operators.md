@@ -15,7 +15,7 @@ Return the result of calling bin(result).
 
 ##Solutions
 ######Exercise 1
-```
+```python
 >>> a = 0b10111011
 >>>
 >>> bitmask = 0b100
@@ -23,7 +23,7 @@ Return the result of calling bin(result).
 0b10111111
 ```
 ######Exercise 2
-```
+```python
 >>> a = 0b11101110
 >>> mask = 0b11111111
 >>> result = a^mask
@@ -33,7 +33,7 @@ Return the result of calling bin(result).
 
 ```
 ######Exercise 3
-```
+```python
 >>> def flip_bit(number,n):
 ...     mask=(0b1<<n-1)
 ...     return bin(number^mask)

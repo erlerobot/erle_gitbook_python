@@ -14,7 +14,7 @@ We are going to make a function to print them.
  + After your function, call `print_grades()` with the grades list as the parameter.
 
 **Solution 1**
-````
+````python
 >>> grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 >>>
 >>> def print_grades(grades):
@@ -46,7 +46,7 @@ We are going to make a function to print them.
  + Call the newly created `grades_sum()` function with the list of grades and print the result.
 
 **Solution 2**
-```
+```python
 >>> grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 >>>
 >>>
@@ -73,7 +73,7 @@ Note:You can also use a for loop.
  + Call the newly created `grades_average()` function with the list of grades and print the result.
 
 **Solution 3**
-```
+```python
 >>> def grades_average(grades):
 ...     tot =grades_sum(grades)
 ...     ave=tot/float(len(grades))
@@ -92,7 +92,7 @@ for each score in scores: Compute its squared difference: (average - score) ** 2
  + Finally, after your function code, print `grades_variance(grades)`.
 
 **Solution 4**
-```
+```python
 >>> def grades_variance(scores):
 ...     average=grades_average(scores)
 ...     variance=0
@@ -113,7 +113,7 @@ return the result of variance ** 0.5
  + Finally print the result of calling `grades_std_deviation(variance)`.
 
 **Solution 5**
-```
+```python
 >>> def grades_std_deviation(variance):
 ...     return variance**0.5
 ...

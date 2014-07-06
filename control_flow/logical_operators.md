@@ -16,7 +16,7 @@ Let's start with the simplest aspect of control flow: comparators. They are use 
 Note that `==` compares whether two things are equal, and `= `assigns a value to a variable.
 
 For example:
-```
+```python
 >>> 17 < 4
 False
 >>> 3 >= 1
@@ -50,7 +50,7 @@ Let's practice with `and`. Assign each variable to the appropriate boolean value
 - Set `bool_five` equal to the result of` True and True`.
 
 You can check the results in your interpeter:
-```
+```python
 bool_one = False
 
 bool_two = False
@@ -82,7 +82,7 @@ Now do the same, but with the `or`operator:
 - Set `bool_five equal` to the result of` 1**100 == 100**1 or 3 * 2 * 1 != 3 + 2 + 1`.
 
 The result should be:
-```
+```python
 bool_one = True
 
 bool_two = True
@@ -112,7 +112,7 @@ Let's get some practice with `not`.
 - Set `bool_five` equal to the result of `not not False`.
 
 The solution of this practice is:
-```
+```python
 bool_one = False
 
 bool_two = True
@@ -146,7 +146,7 @@ Assign True or False as appropriate for bool_one through bool_five.
 - Set `bool_five` equal to the result of `False or not (True and True)`.
 
 The solution is the following one:
-```
+```python
 bool_one = False
 
 bool_two = True

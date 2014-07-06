@@ -10,7 +10,7 @@ In Python, whitespace is used to structure code. Whitespace is important, so you
 The code on the right is badly formatted.
 
 
-```
+```python
 def spam():
 eggs = 12
 return eggs
@@ -19,7 +19,7 @@ print spam()
 ```
 You should see an error message like this one:
 
-```
+```python
  File "<stdin>", line 2
     eggs = 12
        ^
@@ -33,7 +33,7 @@ You'll get this error whenever your whitespace is off.
 To correct this you should properly indent the code with four spaces before eggs on line 2 and another four before return on line 3.
 
 You should indent your code with four spaces.
-```
+```python
 >>> def spam():
 ...     eggs = 12
 ...     return eggs

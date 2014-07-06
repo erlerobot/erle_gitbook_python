@@ -12,7 +12,7 @@ The `max` and `min` functions give us the largest and smallest values in a list,
 
 Example with `max`:
 
-```
+```python
 >>> def biggest_number(*args):
 ...     print max(args)
 ...     return max(args)
@@ -25,7 +25,7 @@ Example with `max`:
 Note: The result of print and return is the same in this case.Usually print displays something in the screen, while return asignd the function the stablished value.
 
 Example with `min`and strings:
-```
+```python
 >>> min("Erle")
 'E'
 ```
@@ -33,7 +33,7 @@ Example with `min`and strings:
 **abs**
 
 The `abs`function returns the absolute value of a number, let's see an example:
-```
+```python
 >>> def distance_from_zero(arg):
 ...     print abs(arg)
 ...     return abs(arg)

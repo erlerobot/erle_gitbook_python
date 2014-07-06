@@ -2,7 +2,7 @@
 
 The use of `for` when accessing dictionaries is very similar to using this loop with lists.The command should be something like this example:
 
-```
+```python
 for key in d:
     print d[key]
 ```
@@ -12,7 +12,7 @@ Note that dictionaries are unordered, meaning that any time you loop through a d
 ######Practice 1
 
 We have the following dictionary:
-```
+```python
 
 webster = {
 	"Aardvark" : "A star of a popular children's cartoon show.",
@@ -23,7 +23,7 @@ webster = {
 ```
 Use a `for` loop to print all the values:
 
-```
+```python
 >>> webster = {
 ...     "Aardvark" : "A star of a popular children's cartoon show.",
 ...     "Baa" : "The sound a goat makes.",

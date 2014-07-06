@@ -2,7 +2,7 @@
 
 
 If you want to do something with every item in the list, you can use a `for` loop. The command line is:
-```
+```python
 for variable in list_name:
 ```
 A variable name follows the for keyword; it will be assigned the value of each list item in turn.
@@ -11,7 +11,7 @@ Then in `list_name `designates `list_nam`e as the list the loop will work on. Th
 
 ######Practice 1
 What does this code?
-```
+```python
 >>> my_list = [1,9,3,8,5,7]
 >>>
 >>> for number in my_list:
@@ -20,8 +20,8 @@ What does this code?
 ...
 ...
 ```
-The `for` loop will automatically execute your code as many times as there are items in my_list.The result is:
-```
+The `for` loop will automatically execute your code as many times as there are items in `my_list`.The result is:
+```python
 ...
 2
 18
@@ -38,7 +38,7 @@ If your list is a jumbled mess, you may need to sort() it.Note that `.sort()` mo
 Write a `for`loop that iterates over `start_list = [5, 3, 1, 2, 4]` and `.append()s` each number squared (x ** 2) to `square_list`(initialized to empty list).
 Then sort square_list.
 
-```
+```python
 >>> start_list = [5, 3, 1, 2, 4]
 >>> square_list = []
 >>>
@@ -59,10 +59,10 @@ Then sort square_list.
 ---
 ######Practice 3
 Use a `for` loop to print out all of the elements in the list names.
-```
+```python
 names = ["Adam","Alex","Mariah","Martine","Columbus"]
 ```
-```
+```python
 >>> names = ["Adam","Alex","Mariah","Martine","Columbus"]
 >>>
 >>> for name in names:
@@ -80,7 +80,7 @@ You can also use the `for`loop with strings:
 ######Practice 4
 We are going to print only the "i" letters for a string. Run this code and analyze what happend:
 
-```
+```python
 
 word = "Programming is fun!"
 

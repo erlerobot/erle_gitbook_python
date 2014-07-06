@@ -20,7 +20,7 @@ Create a file called `new_world.txt`.First add a new line to the file:`Welcome t
 ######Exercise 1
 
 The solution code is the following:
-```
+```python
   name=raw_input("Enter the file name:")
 
   my_file=open(name,"r")
@@ -51,7 +51,7 @@ root@erlerobot:~/Python_files#
 
 ######Exericse 2
 The code should be stored on `nworld.py`and then executed:
-```
+```python
  my_file=open("new_world.txt","r+")
 
  line= "Welcome to robotics time."

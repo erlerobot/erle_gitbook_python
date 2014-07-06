@@ -6,7 +6,7 @@ This process is called file *I/O* (the "I/O" stands for "input/output"), and Pyt
 
 #####Opening a file
 Let's walk through the process of writing to a file one step at a time.Let's analyze the follwing command:
-```
+```python
 f = open("output.txt", "w")
 ```
 This told Python to open `output.txt` in "w" mode ("w" stands for "write"). We stored the result of this operation in a file object, f.
@@ -23,14 +23,14 @@ root@erlerobot:~/Python_files# touch output.txt
 
 Create a variable, `my_file`, and set it equal to calling the open() function on `output.txt`. In this case, pass "r+" as a second argument to the function so the file will allow you to read and write to it.
 Note: You should create a file `output.txt`.
-```
+```python
 my_file=open("output.txt","r+")
 ```
 ---
 #####Writing on a file
 
 Now it's time to write some data to our output.txt file.We can write to a Python file like so:
-```
+```python
 my_file.write("Data to be written")
 ```
 The `write()` function takes a string argument, so we'll need to do a few things here:
@@ -46,7 +46,7 @@ Make sure to call `str()` on the iterating data so `.write()` will accept it
 Make sure to add a newline ("\n") after each element to ensure each will appear on its own line.
 Use `my_file.close()` to close the file when you're done.
 
-```
+```python
 >>> my_list = [i**2 for i in range(1,11)]
 >>>
 >>> my_file = open("output.txt", "r+")
@@ -79,7 +79,7 @@ root@erlerobot:~/Python_files#
 #####Reading a file
 
 Finally, we want to know how to read from our output.txt file. As you might expect, we do this with the read() function, like so:
-```
+```python
 print my_file.read()
 ```
 
@@ -88,7 +88,7 @@ print my_file.read()
 Declare a variable, `my_file`, and set it equal to the file object returned by calling `open()` with both "output.txt" and "r".
 Next, print the result of using `.read()` on `my_file`, like the example above.
 Make sure to `.close()` your file when you're done with it. All kinds of doom will happen if you don't.
-```
+```python
 >>> my_file=open("output.txt","r")
 >>>
 >>> print my_file.read()
@@ -131,7 +131,7 @@ Declare a new variable `my_file` and store the result of calling `open()` on the
 On three separate lines, print out the result of calling `my_file.readline()`. See how it gets the next line each time?
 Don't forget to `close()` your file when you're done with it.
 
-```
+```python
 >>> my_file=open("text.txt","r")
 >>>
 >>> print my_file.readline()
@@ -160,7 +160,7 @@ Python doesn't flush the buffer—that is, write data to the file—until it's s
 Yes, there is.You may not know this, but file objects contain a special pair of built-in methods: `__enter__()` and `__exit__()`. The details aren't important, but what is important is that when a file object's `__exit__()` method is invoked, it automatically closes the file. We invoke this method:Using `with` and `as`.
 
 The syntax looks like this:
-```
+```python
 with open("file", "mode") as variable:
     # Read or write to the file
     ```
@@ -168,7 +168,8 @@ with open("file", "mode") as variable:
 
 ######Practice 5
 Write any data you like to the `text.txt` file using `with...as`. Give your file object the usual name: `my_file.
-```
+
+```python
 >>> with open("text.txt","r+") as my_file:
 ...     my_file.write("Hey!I'm writing on the file!")
 ...     print my_file.read()
@@ -180,7 +181,7 @@ Write any data you like to the `text.txt` file using `with...as`. Give your file
 
 Finally, we'll want a way to test whether a file we've opened is closed. Sometimes we'll have a lot of file objects open, and if we're not careful, they won't all be closed. We can check it with:
 
-```
+```python
 f = open("bg.txt")
 f.closed
 # False
@@ -199,7 +200,7 @@ Check if the file is not `.closed`.
 If that's the case, call `.close()` on it.
 (You don't need an else here, since your if statement should do nothing if `.closed` is True.)
 After your if statement, print out the value of `my_file.closed` to make sure your file is really closed.
-```
+```python
 >>> with open("text.txt","r+") as my_file:
 ...     my_file.write("Hey!I'm writing on the file!")
 ...     print my_file.read()

@@ -13,7 +13,7 @@ This OOP is a very powerful tool and it can be very useful.In [Phyton Documentat
 #####Class syntaxis
 
 A basic class consists only of the class keyword, the name of the class, and the class from which the new class inherits in parentheses. For now, our classes will inherit from the object class, like so:
-```
+```python
 class NewClass(object):
 ```
 This gives them the powers and abilities of a Python object. By convention, user-defined Python class names start with a capital letter.
@@ -21,7 +21,7 @@ This gives them the powers and abilities of a Python object. By convention, user
 ######Practice 1
 Create a class called `Animal in the editor. For now, in the body of your class, use the `pass` keyword. (`pass` doesn't do anything, but it's useful as a placeholder in areas of your code where Python expects an expression.)
 Don't loose this code, we are going to continue modifying it in next practices of this section.
-```
+```python
 >>> class Animal(object):
 ...       pass
 ...
@@ -36,7 +36,7 @@ We  should start our class definition off with an odd-looking function: `__init_
 
 ######Practice 2
 Remove the pass statement in your class definition, then go ahead and define an `__init__() `function for your `Animal` class. Pass it the argument `self` for now. Finally, put the pass into the body of the `__init__() definition, since it will expect an indented block.
-```
+```python
 >>> class Animal(object):
 ...     def  __init__(self):
 ...         pass
@@ -55,7 +55,7 @@ The part that is magic is the fact that self is the first parameter passed to `_
 Pass `__init__()` a second parameter, name.
 In the body of `__init__()`, let the function know that name refers to the created object's name by typing `self.name = name`.
 
-```
+```python
 >>> class Animal(object):
 ...     def  __init__(self, name):
 ...         self.name=name
@@ -69,7 +69,7 @@ In the body of `__init__()`, let the function know that name refers to the creat
 We can access attributes of our objects using dot notation.
 
 Here's how it works:
-```
+```python
 >>> class Square(object):
 ...   def __init__(self):
 ...     self.sides = 4
@@ -82,7 +82,7 @@ Here's how it works:
 ######Practice 4
 Outside the `Animal` class definition, create a variable named `zebra` and set it equal to `Animal("Jeffrey")`.
 Then print out zebra's name.
-```
+```python
 >>> class Animal(object):
 ...     def  __init__(self, name):
 ...         self.name=name
@@ -100,7 +100,7 @@ The first argument `__init__()` gets is used to refer to the instance object, an
 
 ######Practice 5
 Analyze this code. You can copy it in a file calles ` animals.py` and execute it. What happend?
-```
+```python
 # Class definition
 class Animal(object):
     """Makes cute animals."""
@@ -141,7 +141,7 @@ It may surprise you to learn that not all variables are accessible to all parts 
 The same goes for functions: some are available everywhere, some are only available to members of a certain class, and still others are only available to particular instance objects.
 
 For example:
-```
+```python
 class Animal(object):
     """Makes cute animals."""
     is_alive = True

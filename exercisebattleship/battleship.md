@@ -13,7 +13,7 @@ We will go step by step, given solutions  at the end you will find the solution(
 
 - Create a 5 x 5 grid initialized to all 'O's and store it in board.
 Tip:
-```
+```python
 >>> board=["O"]*5
 >>> print board
 ['O', 'O', 'O', 'O', 'O']
@@ -27,7 +27,7 @@ Tip:
  + Use the `print` command to display the contents of the board list.
 
 **Solution1**:
-```
+```python
 board=[]
 
 for x in range(0,5):
@@ -43,7 +43,7 @@ Then, define a function named `print_board` with a single argument, board.
 + Call your function with board to make sure it works.
 
 **Solution 2**
-```
+```python
 
 def print_board(board):
     for i in board:
@@ -61,7 +61,7 @@ a b c d
  + Inside your function, inside your for loop, use " " as the separator to `.join` the elements of each row.
 
 **Solution 3**
-```
+```python
 def print_board(board):
     for row in board:
         print " ".join(row)
@@ -70,7 +70,7 @@ print_board(board)
 ```
 - Now, let's hide our battleship in a random location on the board.Since we have a 2-dimensional list, we'll use two variables to store the ship's location, `ship_row` and `ship_col`.
 Look at his example:
-````
+```python
 >>> from random import randint
 >>> coin = randint(0, 1)
 >>> dice = randint(1, 6)
@@ -90,7 +90,7 @@ Let's generate a `random_row` and `random_col` from zero to four.
  + Call each function on board.
 
 **Solution 4**
-```
+```python
 def random_row(board):
     from random import randint
     return randint(0, len(board) - 1)
@@ -113,7 +113,7 @@ def random_col(board):
 
 **Solution 5**
 
-```
+```python
 ship_row = random_row(board)
 ship_col = random_col(board)
 guess_row = int(raw_input("Guess Row:"))
@@ -146,7 +146,7 @@ We'll add the first case:
 If it has, print "You guessed that one already."
 
 **Solution 6**
-```
+```python
 if guess_row==ship_row and guess_col==ship_col:
     print "Congratulations!You sank my battleship!"
 else:
@@ -171,7 +171,7 @@ else:
 + Indent everything that should be repeated.
 
 **Solution 7**
-```
+```python
 for turn in range(4):
 
 

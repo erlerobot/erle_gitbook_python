@@ -1,7 +1,7 @@
 ## Dictionaries basics
 
 A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:
-```
+```python
 d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
 ```
 This is a dictionary called d with three key-value pairs. The key 'key1' points to the value 1, 'key2' to 2, and so on.
@@ -14,11 +14,11 @@ Note that accessing dictionary values by key is just like accessing list values 
 
 ######Practice 1
 Given this dictinary:
-```
+```python
 residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
 ```
 Print the value stored under the 'Sloth' key:
-```
+```python
 >>> residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
 >>> print residents['Sloth']
 105
@@ -29,7 +29,7 @@ Print the value stored under the 'Sloth' key:
 #####Adding elements to a dictionary
 
 Like Lists, Dictionaries are "mutable". This means they can be changed after they are created. One advantage of this is that we can add new key/value pairs to the dictionary after it is created like so:
-```
+```python
 dict_name[new_key] = new_value
 ```
 An empty pair of curly braces `{}` is an empty dictionary, just like an empty pair of` [] `is an empty list.
@@ -39,7 +39,7 @@ The length `len()` of a dictionary is the number of key-value pairs it has. Each
 ######Practice 2
 Add three elements to `menu{}`.
 Print the number of elements in menu and the menu itselfs.
-```
+```python
 >>> menu = {} # Empty dictionary
 >>> menu['Sunday']=16.78
 >>> print menu['Sunday']
@@ -61,19 +61,19 @@ There are 3 items on the menu.
 #####Removing elements from a dictionary and associating values with keys.
 
 Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the del command:
-```
+```python
 del dict_name[key_name]
 ```
 will remove the key key_name and its associated value from the dictionary.
 
 A new value can be associated with a key by assigning a value to the key, like so:
-```
+```python
 dict_name[key] = new_value
 ```
 
 ######Practice 3
 Given the dictionary:
-```
+```python
 # key - animal_name : value - location
 zoo_animals = { 'Unicorn' : 'Cotton Candy House',
 'Sloth' : 'Rainforest Exhibit',
@@ -85,7 +85,7 @@ zoo_animals = { 'Unicorn' : 'Cotton Candy House',
 
 - Set the value associated with 'Rockhopper Penguin' to anything other than 'Arctic Exhibit.
 
-```
+```python
 >>> zoo_animals = { 'Unicorn' : 'Cotton Candy House',
 ... 'Sloth' : 'Rainforest Exhibit',
 ... 'Bengal Tiger' : 'Jungle House',

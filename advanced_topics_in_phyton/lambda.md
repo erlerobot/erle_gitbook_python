@@ -7,18 +7,18 @@ This is one of the more powerful aspects of Python, that it allows for a style o
 Let's see a pair of examples:
 
 Typing
-```
+```python
 lambda x: x % 3 == 0
 ```
 Is the same as
-```
+```python
 def by_three(x):
     return x % 3 == 0
 ```
 Only we don't need to actually give the function a name; it does its work and returns a value without one. That's why the function the lambda creates is an anonymous function.
 
 Another expample of the use of lambda function:
-```
+```python
 >>> my_list = range(16)
 >>> print filter(lambda x: x % 3 == 0, my_list)
 [0, 3, 6, 9, 12, 15]
@@ -31,7 +31,7 @@ Take into account that if you plan on creating a function you'll use over and ov
 
 We have this piece of code:
 
-```
+```python
 languages = ["HTML", "JavaScript", "Python", "Ruby"]
 print filter(_______, _______)
 ```
@@ -41,7 +41,7 @@ print filter(_______, _______)
 
 Remember, `filter() `takes two arguments: the first is the function that tells it what to filter, and the second is the object to perform the filtering on.
 
-```
+```python
 >>> languages = ["HTML", "JavaScript", "Python", "Ruby"]
 >>> print filter(lambda word: word=="Python", languages)
 ['Python']

@@ -4,7 +4,7 @@
 
 ######Practice 1
 Run this code and see what happend:
-```
+```python
 >>> x=10
 >>> if x>2 :
 ...     print "It is a Large number."
@@ -21,7 +21,7 @@ Unlike `if`, `else doesn't depend on an expression.
 #####Practice 2
 
 Let's see an example:
-```
+```python
 >>> if 8 > 9:
 ...     print "I don't printed!"
 ... else:
@@ -37,8 +37,9 @@ I get printed!
 ######Practice 3
 
 Here you find the example:
-```
-```>>> if 8 > 9:
+
+```python
+>>> if 8 > 9:
 ...     print "I don't get printed!"
 ... elif 8 < 9:
 ...     print "I get printed!"

@@ -6,7 +6,7 @@ When a class has its own functions, those functions are called methods. You've a
 
 ######Practice 1
 Going back to the `Animals`example, where we have this code:
-```
+```python
 class Animal(object):
     """Makes cute animals."""
     is_alive = True
@@ -17,7 +17,7 @@ class Animal(object):
 Add a method, `description, to your `Animal` class. Using two separate print statements, it should print out the name and age of the animal it's called on. Then, create an instance of Animal, hippo (with whatever name and age you like), and call its description method.
 
 Answer: copy this in a file called `hippo.py`:
-```
+```python
 class Animal(object):
     """Makes cute animals."""
     is_alive = True
@@ -51,7 +51,7 @@ A class can have any number of member variables. These are variables that are *a
 ######Practice 2
 
 You have this piece of code:
-```
+```python
 class Animal(object):
     """Makes cute animals."""
     is_alive = True #This is the member variable
@@ -73,7 +73,7 @@ Then, create two new Animals: `sloth` and `ocelot`. (Give them whatever names an
 Finally, on three separate lines, print out the health of your hippo, sloth, and ocelot.
 
 Answer:store this code in a file:
-```
+```python
 class Animal(object):
     """Makes cute animals."""
     is_alive = True #This is the member variable

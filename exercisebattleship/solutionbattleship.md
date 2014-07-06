@@ -2,7 +2,7 @@
 
 Create `Battleship.py`and copy this code:
 
-```
+```python
 #Battleship!
 from random import randint
 

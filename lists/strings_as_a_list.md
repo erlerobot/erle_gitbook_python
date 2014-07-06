@@ -5,7 +5,7 @@ You can slice a string exactly like a list! In fact, you can think of strings as
 
 ######Practice 1
 See an example of how managing strings as lists:
-```
+```python
 >>> animals = "catdogfrog"
 >>>
 >>> cat  = animals[:3]

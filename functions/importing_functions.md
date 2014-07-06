@@ -10,27 +10,27 @@ To import a function (in this case `sqrt()` function) from this module follow th
 
 Here you have an example:
 
-```
+```python
 >>> import math
 >>> print math.sqrt(25)
 5.0
 ```
 
 It's possible to import only certain variables or functions from a given module. Pulling in just a single function from a module is called a function import, and it's done with the from keyword:
-```
+```python
 from module import function
 ```
 For example:
-```
+```python
 >>> from math import sqrt
 ```
 
 What if we still want all of the variables and functions in a module but don't want to have to constantly type `math.`?Universal import can handle this for you.
-```
+```python
 from module import *
 ```
 Note:The `* `means all.
-```
+```python
 >>> from math import *
 ```
 
@@ -42,7 +42,7 @@ Even if your own definitions don't directly conflict with names from imported mo
 This code will show you everything available in the `math` module.
 
 
-```
+```python
 >>> import math            # Imports the math module
 >>> everything = dir(math) # Sets everything to a list of things from math
 >>> print everything       # Prints 'em all!

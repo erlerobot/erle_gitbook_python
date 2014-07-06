@@ -4,7 +4,7 @@
 
 The `.items()`function returns an array of tuples with each tuple consisting of a key/value pair from the dictionary. `.items()` function doesn't return key/value in any specific order.The syntaxis is:
 
-```
+```python
 print dic_name.items()
 ```
 **.values() and .keys()**
@@ -20,7 +20,7 @@ You can think of a tuple as an immutable (that is, unchangeable) list (though th
 
 Create your own Python dictionary, my_dict, with two or three key/value pairs.
 Then, print the result of calling the my_dict.items().
-```
+```python
 >>> my_dict={"string":"string of char",
 ... "bolean":True,
 ... "integer":3}
@@ -32,7 +32,7 @@ Then, print the result of calling the my_dict.items().
 ```
 
 Now print the result of using `.keys`and `.values()`:
-```
+```python
 >>> print my_dict.keys()
 ['integer', 'bolean', 'string']
 >>> print my_dict.values()
@@ -40,7 +40,7 @@ Now print the result of using `.keys`and `.values()`:
 >>>
 ```
 Remember the other way of iterating throug a dictionary usding the `for`loop.
-```
+```python
 >>>
 >>> for key in my_dict:
 ...     print key, my_dict[key]

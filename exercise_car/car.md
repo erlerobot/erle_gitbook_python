@@ -13,7 +13,7 @@ We are going to follow the exercise instructions step by step and give solutions
  + Below your Car class, create a new object named `my_car` that is an instance of Car.
 
 **Solution 1**
-```
+```python
 >>> class Car(object):
 ...     pass
 ...
@@ -27,7 +27,7 @@ We are going to follow the exercise instructions step by step and give solutions
 
 
 **Solution2**
-```
+```python
 >>>
 >>> class Car(object):
 ...     condition="new"
@@ -51,7 +51,7 @@ mpg = 88
 
 **Solution 3**
 
-```
+```python
 >>> class Car(object):
 ...     condition="new"
 ...     def __init__(self,model,color,mpg):
@@ -74,7 +74,7 @@ Then print out the color of `my_car`.Finally, print out the mpg of `my_car.
 
 
 **Solution 4**
-```
+```python
 >>> class Car(object):
 ...     condition="new"
 ...     def __init__(self,model,color,mpg):
@@ -98,7 +98,7 @@ silver
  + Replace the individual print statements with a single print command that displays the result of calling `my_car.display_car()`.
 
 **Solution 5**
-```
+```python
 >>> class Car(object):
 ...     condition = "new"
 ...     def __init__(self, model, color, mpg):
@@ -125,7 +125,7 @@ This is a silver DeLorean with 88 MPG.
  + Finally, print the condition of your car again to see how its value changes.
 
 **Solution 6**
-```
+```python
 >>> class Car(object):
 ...     condition = "new"
 ...     def __init__(self, model, color, mpg):
@@ -155,7 +155,7 @@ used
  + Then, create an electric car named "my_car" with a "molten salt" `battery_type.` Supply values of your choice for the other three inputs (model, color and mpg).
 
 **Solution 7**
-```
+```python
 >>> class Car(object):
 ...     condition = "new"
 ...     def __init__(self, model, color, mpg):
@@ -192,7 +192,7 @@ used
  + Finally, print the condition of `my_ca`r again
 
 **Solution 8**
-```
+```python
 >>>
 >>> class Car(object):
 ...     condition = "new"

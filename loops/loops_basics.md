@@ -4,7 +4,7 @@ A loop is a sequence of instruction s that is continually repeated until a certa
 
 For example `for `is  a loop :
 
-```
+```python
 >>> n=["Welcome", " to", " Erleboard", " world"]
 >>> for x in n:
 ...   print x
@@ -32,7 +32,7 @@ the body. In that case you can write an infinite loop on purpose and then use th
 
 ######Practice 1
 Analyze the code bellow:
-```
+```python
 >>> while True:
 ...     print count
 ...     count += 1
@@ -67,7 +67,7 @@ Here is an example of a loop that copies its input until the user types â€œdoneâ
 treats lines that start with the hash character as lines not to be printed (kind of like
 Python comments).
 Open a `cont.py`file and copy the code bellow:
-```
+```python
 while True:
   line = raw_input('> ')
   if line[0] == '#' :

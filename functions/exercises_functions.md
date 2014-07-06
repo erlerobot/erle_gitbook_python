@@ -71,7 +71,7 @@ if that number is divisible by 3,` by_three `should call `cube(number)` and retu
 ##Solutions
 
 ######Exercise 1
-```
+```python
 >>> def shut_down(s):
 ...     if s=="yes":
 ...        return "Shutting down"
@@ -87,7 +87,7 @@ if that number is divisible by 3,` by_three `should call `cube(number)` and retu
 ```
 
 ######Exercise 2
-```
+```python
 >>> from math import sqrt
 >>> print sqrt(13689)
 117.0
@@ -96,7 +96,7 @@ if that number is divisible by 3,` by_three `should call `cube(number)` and retu
 
 ######Exercise 3
 
-```
+```python
 
 >>> def distance_from_zero(num):
 ...     if type(num)== int or type(num)== float:
@@ -111,7 +111,7 @@ if that number is divisible by 3,` by_three `should call `cube(number)` and retu
 ```
 ######Exercise 4
 
-```
+```python
 >>> def computepay(hours,rate):
 ...     if hours < 40:
 ...        pay=hours*rate
@@ -138,7 +138,7 @@ root@erlerobot:~# python trpcal.py
 ```
 This is the code:
 
-```
+```python
 nights=raw_input("Enter nights:")
 city=raw_input("Enter city:")
 days=raw_input("Enter days of car rental:")
@@ -174,7 +174,7 @@ trip_cost(city,days,spending_money)
 
 ######Exercise 6
 
-```
+```python
 >>> def cube(number):
 ...     return number*number*number
 ...

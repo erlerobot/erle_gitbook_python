@@ -1,7 +1,7 @@
 # Solution:Exam statistics
 
 Create a file called `Exam.py`and add the code bellow:
-```
+```python
 grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
 
 def print_grades(grades):

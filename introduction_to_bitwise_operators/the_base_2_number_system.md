@@ -31,7 +31,7 @@ In Python you have only to invert the values:
 |1|0|1|0|in base 10 is 10|
 
 Here you ca find an example using Python:
-```
+```python
 >>> print 0b1,
 1
 >>> print 0b10,
@@ -57,7 +57,7 @@ Here you ca find an example using Python:
 
 ######Practice 1
 Try to full-fill the values:
-```
+```python
 one = 0b1
 two = 0b10
 three = 0b11
@@ -95,7 +95,7 @@ There are Python functions that can aid you with bitwise operations. In order to
 You can also represent numbers in base 8 and base 16 using the `oct() ` and `hex()` functions.
 
 For example:
-```
+```python
 >>> print bin(1)
 0b1 #This is a string!Be careful!
 >>>
@@ -106,7 +106,7 @@ For example:
 Python has an `int() function that you've seen a bit of already. It can turn non-integer input into an integer.
 What you might not know is that the `int` function actually has an optional second parameter.
 
-```
+```python
 >>> int("110", 2)
 6
 
@@ -116,7 +116,7 @@ When given a string containing a number and the base that number is in, the func
 ######Practice 2
 
 Print this code and analize the results:
-```
+```python
 print int("1",2)
 print int("10",2)
 print int("111",2)
@@ -124,7 +124,7 @@ print int("0b100",2)
 print int(bin(5),2)
 ```
 The results should be:
-```
+```python
 >>> print int("1",2)
 1
 >>> print int("10",2)

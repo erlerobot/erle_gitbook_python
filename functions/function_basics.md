@@ -6,7 +6,7 @@ the sequence of statements. Later, you can “call” the function by name.
 
 
 `def` is a keyword that indicates that this is a function definition. For example:
-```
+```python
 >>> def tax(bill):
 ...     """Adds 8% tax to a restaurant bill."""
 ...     bill *= 1.08
@@ -36,7 +36,7 @@ After defining a function, it must be called to be implemented.
 ######Practice 1
 
 Define a function that returns the square of a number, and call it with the argument 10.
-```
+```python
 >>> def square(n):
 ...     """Returns the square of a number."""
 ...     squared = n**2
@@ -54,7 +54,7 @@ Define a function that returns the square of a number, and call it with the argu
 ######Practice 2
 
 Make the same and kind of function as in Practice 1, but using two arguments:base, exponent.
-```
+```python
 >>> def power(base, exponent):  # Add your parameters here!
 ...     result = base**exponent
 ...     print "%d to the power of %d is %d." % (base, exponent, result)
@@ -71,7 +71,8 @@ Make the same and kind of function as in Practice 1, but using two arguments:bas
 Define `one_good_turn` (which adds 1 to the number it takes in as an argument) and `deserves_another` (which adds 2).
 
 Change the body of `deserves_another` so that it always adds 2 to the output of `one_good_turn`.
- ```
+
+ ```python
  >>> def one_good_turn(n):
 ...     return n + 1
 ...

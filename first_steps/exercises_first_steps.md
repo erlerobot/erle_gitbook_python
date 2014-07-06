@@ -80,11 +80,7 @@ Note:` ºC *9/5 +32 = ºF
 ######Exercise 1
 
 
-```
-root@erlerobot:~# python
-Python 2.7.3 (default, Sep 26 2013, 21:37:06)
-[GCC 4.6.3] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
+```python
 >>> width = 17
 >>> height = 12.0
 >>>
@@ -100,7 +96,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 ######Exercise 2
-```
+```python
 
 >>> meal = 44.50
 >>> tax = 6.75/100
@@ -111,7 +107,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 ######Exercise 3
-````
+```python
 >>> my_string= 'Erle'
 >>> # For printing the length of the string we use len() method.
 >>> print len(my_string)
@@ -121,10 +117,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 ERLE
 >>>
 
-````
+```
 
 ######Exercise 4
-```
+```python
 
 >>> hours=raw_input('Enter worked hours:')
 Enter worked hours: 35
@@ -142,7 +138,7 @@ the pay is: 96.25
 
 ######Exercise 5
 
-```
+```python
 >>> from datetime import datetime
 >>> now = datetime.now()
 >>>
@@ -153,7 +149,7 @@ the pay is: 96.25
 
 ######Exercise 6
 
-```
+```python
 >>> tempC= raw_input('Enter de temperarute in Celsius:')
 Enter de temperarute in Celsius:20
 >>> tempC=float(tempC)

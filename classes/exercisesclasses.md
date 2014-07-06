@@ -14,7 +14,7 @@ Define a class called `Songs`, it will show the lyrics of a song.
 Its `__init__()` method should have two arguments:`self`anf `lyrics`.`lyrics`is a list.
 Inside your class create a method called `sing_me_a_song`that prints each element of `lyrics`on his own line.
 Define a varible:
-```
+```python
 happy_bday = Song(["May god bless you, ",
                    "Have a sunshine on you,",
                    "Happy Birthday to you !"])
@@ -41,7 +41,7 @@ Finally, print `my_point`.
 ##Solutions
 
 ######Exercise 1
-```
+```python
 >>> class Triangle(object):
 ...     def __init__(self,angle1,angle2,angle3):
 ...         self.angle1=angle1
@@ -72,7 +72,7 @@ True
 
 ```
 ######Exercise 2
-```
+```python
 >>> class Song(object):
 ...   def __init__(self, lyrics):
 ...      self.lyrics=lyrics
@@ -97,7 +97,7 @@ None
 ######Exercise 3
 
 You can copy this code in a file called `menu.py`:
-```
+```python
 class Lunch(object):
     def __init__(self,menu):
       self.menu=menu
@@ -123,7 +123,7 @@ root@erlerobot:~/Python_files#
 ######Exercise 4
 
 Copy the following code in a file called `3d.py`:
-```
+```python
 class Point3D(object):
     def __init__(self,x,y,z):
         self.x=x

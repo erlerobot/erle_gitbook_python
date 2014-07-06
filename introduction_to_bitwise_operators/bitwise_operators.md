@@ -10,7 +10,7 @@ Note that you can only do bitwise operations on an integer. Trying to do them on
 
 ######Practice 1
 Shift the variable `shift_right` to the right twice (>> 2) and shift the variable `shift_left` to the left twice (<< 2). Try to guess what the printed output will be.
-```
+```python
 >>> shift_right = 0b1100
 >>> shift_left = 0b1
 >>>
@@ -46,7 +46,7 @@ So remember, for every given bit in a and b:
 ######Parctice 2
 
 Print out the result of calling bin() on 0b1110 & 0b101.
-```
+```python
 >>> print bin(0b1110 & 0b101)
 0b100
 ```
@@ -72,7 +72,7 @@ So remember, for every given bit in a and b:
 ######Parctice 3
 
 For practice, print out the result of using | on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the | operator if you can help it.
-```
+```python
 >>> or_var=0b1110 | 0b101
 >>>
 >>> print or_var
@@ -102,7 +102,7 @@ So remember, for every given bit in a and b:
 ```
 ######Practice 4
 For practice, print the result of using ^ on 0b1110 and 0b101 as a binary string. Try to do it on your own without using the ^ operator.
-```
+```python
 >>> xor= 0b1110 ^ 0b101
 >>>
 >>> print xor
@@ -116,7 +116,7 @@ For practice, print the result of using ^ on 0b1110 and 0b101 as a binary string
 
 The bitwise NOT operator (~) just flips all of the bits in a single number. What this actually means to the computer is actually very complicated, so we're not going to get into it. Just know that mathematically, this is equivalent to adding one to the number and then making it negative.
 For example:
-```
+```python
 >>> print ~3
 -4
 >>> print ~42

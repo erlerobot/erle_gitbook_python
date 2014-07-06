@@ -46,7 +46,7 @@ number rest LARGE
 ##Solutions
 
 ######Exercise 1
-```
+```python
 Enter worked hours:45
 >>> hours=float(hours)
 >>> rate=10
@@ -62,7 +62,7 @@ the pay is: 475.0
 ````
 
 ######Exercise 2
-```
+```python
 
 pyg = 'ay'
 
@@ -79,7 +79,7 @@ else:
 ```
 
 ######Exercise 3
-```
+```python
 >>> score=raw_input("Enter a score:")
 Enter a score:0.79
 >>> score=float(score)
@@ -100,7 +100,7 @@ C
 >>>
 ```
 ######Exercise 4
-```
+```python
 >>> num =raw_input ("Enter a number:")
 Enter a number:6
 >>> if num < 2:

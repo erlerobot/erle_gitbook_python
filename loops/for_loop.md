@@ -5,7 +5,7 @@ the `for` loop is looping through a known set of items so it runs through as man
 
 ######Practice 1
 Execute the following code and analyze the result:
-```
+```python
 >>> friends = ['Joseph', 'Glenn', 'Sally']
 >>>
 >>> for friend in friends:
@@ -31,7 +31,7 @@ A weakness of using this for-each style of iteration is that you don't know the 
 ######Practice 2
 Look the result of this code:
 
-````
+```python
 >>> choices = ['pizza', 'pasta', 'salad', 'nachos']
 >>>
 >>> print 'Your choices are:'
@@ -53,7 +53,7 @@ It's also common to need to iterate over two lists at once. This is where the bu
 
 ######Practice 3
 Compare each pair of elements and print the larger of the two.Print the biggest one of each pair.
-```
+```python
 list_a = [3, 9, 17, 15, 19]
 list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 ```
@@ -84,12 +84,12 @@ In this case, the else statement is executed after the `for`, but only if the fo
 
 ######Practice 4
 We have this fruit list:
-```
+```python
 fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
 ```
 We are going to make a program that search for "carrot" between this fruit. If it doesn't appear it shows a succes message:
 
-```
+```python
 >>> fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
 >>>
 >>> print 'You have...'

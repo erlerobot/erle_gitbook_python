@@ -1,6 +1,6 @@
 ## Solution:Car
  Store this code in a file called `car.py`. This code bellow to the last question of the exercise:
- ```
+ ```python
  class Car(object):
     condition = "new"
     def __init__(self, model, color, mpg):

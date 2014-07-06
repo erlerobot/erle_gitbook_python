@@ -4,7 +4,7 @@ Inheritance is the process by which one class takes on the attributes and method
 
 ######Practice 1
 Analyze the following code. You can copy it to a file called`car_prog.py` and execute it.
-```
+```python
 class Customer(object):
     """Produces objects that represent customers."""
     def __init__(self, customer_id):
@@ -35,7 +35,7 @@ root@erlerobot:~/Python_files#
  #####Inheritance syntaxis
 
 In Python, inheritance works like this:
-```
+```python
 class DerivedClass(BaseClass):
     # code goes here
     ```
@@ -43,7 +43,7 @@ where `DerivedClass` is the new class you're making and `BaseClass` is the class
 
 ######Practice 2
 Given this code:
-```
+```python
 class Shape(object):
     """Makes shapes!"""
     def __init__(self, number_of_sides):
@@ -51,7 +51,7 @@ class Shape(object):
         ```
 
 Create your own class, Triangle, that inherits from Shape, like this:
-```
+```python
 class Triangle(Shape):
     # code goes here
 ```
@@ -60,7 +60,7 @@ Inside the Triangle class, write an` __init__()` function that takes four argume
 Inside the `__init__()` function, set `self.side1 = side1`, `self.side2 = side2`, and `self.side3 = side3.
 
 The resulting code is:
-```
+```python
 class Shape(object):
     """Makes shapes!"""
     def __init__(self, number_of_sides):
@@ -84,7 +84,7 @@ Sometimes you'll want one class that inherits from another to not only take on t
 
 ######Practice 3
 We have the following code:
-```
+```python
 class Employee(object):
     """Models real-life employees!"""
     def __init__(self, employee_name):
@@ -102,7 +102,7 @@ Because `PartTimeEmployee.calculate_wage` overrides `Employee.calculate_wage`, i
 It should return the part-time employee's number of hours worked multiplied by 12.00 .
 
 Answer, the final code should be:
-```
+```python
 class Employee(object):
     """Models real-life employees!"""
     def __init__(self, employee_name):
@@ -125,7 +125,7 @@ class PartTimeEmployee(Employee):
 On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. You can directly access the attributes or methods of a superclass with Python's built-in super call.
 
 The syntax looks like this:
-```
+```python
 class Derived(Base):
    def m(self):
        return super(Derived, self).m()
@@ -144,7 +144,7 @@ Then, after your class:
 + Finally, print out the result of calling his `full_time_wage method`. You should see his wage printed out at $20.00 per hour! (That is, for 10 hours, the result should be 200.00.)
 
 Answer should be:
-```
+```python
 class Employee(object):
     """Models real-life employees!"""
     def __init__(self, employee_name):
