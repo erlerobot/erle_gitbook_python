@@ -1,7 +1,7 @@
 # Summary
 
-* [What is *Phyton*?](what_is_phyton/README.md)
-* [Phyton in Erle](phyton_in_erle/README.md)
+* [What is *Python*?](what_is_phyton/README.md)
+* [Python in Erle](phyton_in_erle/README.md)
 * [First steps](first_steps/README.md)
    * [Introducing comments](first_steps/introducing_comments.md)
    * [Displaying values on the screen](first_steps/displaying_text.md)
