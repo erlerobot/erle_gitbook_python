@@ -17,7 +17,7 @@ def by_three(x):
 ```
 Only we don't need to actually give the function a name; it does its work and returns a value without one. That's why the function the lambda creates is an anonymous function.
 
-Another expampleof the use of lambda function:
+Another expample of the use of lambda function:
 ```
 >>> my_list = range(16)
 >>> print filter(lambda x: x % 3 == 0, my_list)

@@ -2,7 +2,7 @@
 
 **.items()**
 
-The `.items()`function returns an array of tuples with each tuple consisting of a key/value pair from the dictionary. `.items()` function doesn't return key/value in any specific order.The sintaxis is:
+The `.items()`function returns an array of tuples with each tuple consisting of a key/value pair from the dictionary. `.items()` function doesn't return key/value in any specific order.The syntaxis is:
 
 ```
 print dic_name.items()

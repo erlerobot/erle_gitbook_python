@@ -1,4 +1,4 @@
-## Displaying text
+## Displaying values on the screen
 
 For displaying a desired sentence os text on the scrren you should use a simple sintaxis, like the following one:
 
@@ -56,5 +56,5 @@ this is the variable: Hello
 >>>
 ```
 
-Notice that we have use the two methods of running python.
+Notice that we have use the two methods of running Python.
 

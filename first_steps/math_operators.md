@@ -20,7 +20,7 @@ With Python you can add, subtract, multiply, divide numbers like this:
 |-|subtraction|
 |*|multiplication|
 |/|division|
-|**|exponentiation|
+|**|power|
 |%|remainder of a division|
 
 
