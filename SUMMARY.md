@@ -18,6 +18,7 @@
 * [Control flow](control_flow/README.md)
    * [Logical operators](control_flow/logical_operators.md)
    * [Conditional statements](control_flow/conditional_statements.md)
+   * [ Errors and Exceptions](control_flow/errors_and_exceptions.md)
    * [Exercises: Control flow](control_flow/exercises_control_flow.md)
 * [Functions](functions/README.md)
    * [Function basics: Defining functions](functions/function_basics.md)
