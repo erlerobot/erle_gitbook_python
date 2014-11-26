@@ -29,7 +29,7 @@
    * [Lists basics](lists/lists_basics.md)
        * [Strings as a list](lists/strings_as_a_list.md)
        * [For loop with lists](lists/for_loop_with_strings.md)
-       * [ Function + Lists](lists/function_+_lists.md)
+       * [ Function + Lists](lists/function_lists.md)
    * [Dictionaries basics](lists/dictionaries_basics.md)
        * [For loop with dictionaries](lists/for_loop_with_dictionaries.md)
        * [Iterators for dictionaries](lists/iterators_for_dictionaries.md)
