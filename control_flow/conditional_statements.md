@@ -16,7 +16,7 @@ Note, the identation is very important here.
 ---
 The `else` statement complements the `if` statement. An if/else pair says: "If this expression is true, run this indented code block; otherwise, run this code after the else statement."
 
-Unlike `if`, `else` doesn't depend on an expression.
+Unlike `if`, `else doesn't depend on an expression.
 
 #####Practice 2
 

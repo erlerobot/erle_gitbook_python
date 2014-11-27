@@ -1,7 +1,7 @@
 ## Built-in functions
 
 You already know about some of the built-in functions:
-- Strings functions, such as `.upper()`, `.lower()`, `str()`, and `len()`.
+- Strings functions, such as `.upper()`, `.lower()`, `str()`, and `len().
 - `type()` and type conversion functions: `int()`,`float()`,`str()`.
 
 Now we are going to learn three new functions: `min`, `max`,`abs `.
