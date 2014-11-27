@@ -4,7 +4,7 @@ A **bit mask** is just a variable that aids you with bitwise operations. A bit m
 
 Let's see an example:
 ######Practice 1
-Define a function, `check_bit4, with one argument, input, an integer.
+Define a function, `check_bit4`, with one argument, input, an integer.
 It should check to see if the fourth bit from the right is on.
 If the bit is on, return "on" (not print!)
 If the bit is off, return "off".

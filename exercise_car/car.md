@@ -119,7 +119,7 @@ This is a silver DeLorean with 88 MPG.
 
 - We can modify variables that belong to a class the same way that we initialize those member variables.
 
- +Inside the Car class, add a method `drive_car() `that sets self.condition to the string "used".
+ + Inside the Car class, add a method `drive_car() `that sets self.condition to the string "used".
  + Remove the call to `my_car.display_car()` and instead print only the condition of your car.
  + Then drive your car by calling the `drive_car()` method.
  + Finally, print the condition of your car again to see how its value changes.
