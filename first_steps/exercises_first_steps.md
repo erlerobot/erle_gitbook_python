@@ -47,7 +47,7 @@ Reassign meal to the value of `itself + itself * tax`.
 
 - We're only calculating the cost of meal and tax here. We'll get to the tip soon. Let's introduce on new variable, total, equal to the new `meal + meal * tip`.
 
-- Insert at the end this code `print("%.2f" % total)`. This code print to the console the value of total with exactly two numbers after the decimal.
+- Insert at the end this code `print("%.2f" % total). This code print to the console the value of total with exactly two numbers after the decimal.
 
 ######Exercise 3
 Practicing with string variables, follow the steps:
