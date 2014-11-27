@@ -132,7 +132,7 @@ Otherwise: return "F"
 
  + Finally, test your function. Call your `get_letter_grade` function with the result of `get_average(lloyd)`. Print the resulting letter grade.
 
--Define a function called `get_class_average` that has one argument, students. You can expect students to be a list containing your three students.
+- Define a function called `get_class_average` that has one argument, students. You can expect students to be a list containing your three students.
  + First, make an empty list called results.
  + For each student item in the class list, calculate get_average(student) and then call results.append() with that result.
  + Finally, return the result of calling average() with results.
@@ -277,7 +277,8 @@ lloyd = {
 alice = {"name": "Alice", "homework":[],"quizzes":[],"tests":[],}
 tyler = {"name": "Tyler", "homework":[],"quizzes":[],"tests":[],}
 ```
-**Solution complete*
+**Solution complete**
+
 Create `note.py`with this content:
 ```
 lloyd = {

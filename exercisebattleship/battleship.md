@@ -100,7 +100,6 @@ def random_col(board):
     return randint(0, len(board) - 1)
 ```
 - We are going to ask the user to guess the column and the row where our ship is stored:
-
  + Create a new variable called `guess_row and` set it to `int(raw_input("Guess Row: "))`.
  + Create a new variable called `guess_col` and set it to `int(raw_input("Guess Col: "))`.
 
@@ -141,8 +140,8 @@ We'll add the first case:
  + If that is the case, print out "Oops, that's not even in the ocean."
  + After your new if: statement, add an else: that contains your existing handler for an incorrect guess. Don't forget to indent the code.
 
--And now the second one:
-+ Add an elif to see if the guessed location already has an 'X' in it.(board[col][row]=="X")
+- And now the second one:
+ + Add an elif to see if the guessed location already has an 'X' in it.(board[col][row]=="X")
 If it has, print "You guessed that one already."
 
 **Solution 6**
@@ -194,11 +193,9 @@ for turn in range(4):
 
 
 - If someone runs out of guesses without winning right now, the game just exits. It would be nice to let them know why.Since we only want this message to display if the user guesses wrong on their last turn, we need to think carefully about where to put it.
-
  + We’ll want to put it under the else that accounts for misses.
 + We’ll want to print the message no matter what the cause of the miss.
 + Since our turn variable starts at 0 and goes to 3, we will want to end the game when turn equals 3.
-
 
 - We can use the command `break` to get out of a `for` loop, when the user guess the answer.
  + Add a `break` under the win condition to end the loop after a win.
