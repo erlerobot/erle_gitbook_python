@@ -7,7 +7,7 @@
 
 This book is a **Python Programming Language** tutorial using [Erle board](http://erlerobot.com/). **Erle** is **a small-size Linux computer for making drones.**
 
-Throught this tutorial you will find examples and explanations of how to use Python's sintaxis, variables, fuctions... Definitely, you will learn to program in Python language.
+Throught this tutorial you will find examples and explanations of how to use Python's sintaxis, variables, functions and so on. Definitely, you will learn to program in Python language.
 
 ![erlelogo](http://erlerobotics.com/blog/wp-content/uploads/2014/10/erle_corporativo_5.0_72px_nobackground.png)
 
